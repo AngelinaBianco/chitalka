@@ -131,6 +131,59 @@
     }
   }
 
+
+  /* ---------- тема: солнце ↔ луна ---------- */
+  var themeSeq = 0;
+
+  function effectiveDark() {
+    var attr = document.documentElement.getAttribute('data-theme');
+    if (attr === 'dark') return true;
+    if (attr === 'light') return false;
+    return !!(window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches);
+  }
+  function syncThemeButtons() {
+    var dark = effectiveDark(), list = document.querySelectorAll('.theme');
+    for (var i = 0; i < list.length; i++) {
+      list[i].setAttribute('data-on', dark ? '1' : '0');
+      list[i].setAttribute('aria-label', dark ? 'Включить светлую тему' : 'Включить тёмную тему');
+    }
+    var meta = document.querySelector('meta[name="theme-color"]');
+    if (meta) meta.setAttribute('content', dark ? '#131210' : '#F5F4EF');
+  }
+  function applyTheme(mode) {
+    document.documentElement.setAttribute('data-theme', mode);
+    try { localStorage.setItem('read.theme', mode); } catch (e) {}
+    syncThemeButtons();
+  }
+  function themeButton() {
+    var id = 'cut' + (++themeSeq), rays = '';
+    for (var i = 0; i < 8; i++) {
+      var a = i * Math.PI / 4;
+      rays += '<line x1="' + (12 + Math.cos(a) * 7.7).toFixed(2) + '" y1="' + (12 + Math.sin(a) * 7.7).toFixed(2) +
+              '" x2="' + (12 + Math.cos(a) * 10.3).toFixed(2) + '" y2="' + (12 + Math.sin(a) * 10.3).toFixed(2) + '"/>';
+    }
+    var b = el('button', 'theme');
+    b.innerHTML =
+      '<svg viewBox="0 0 24 24" aria-hidden="true">' +
+        '<mask id="' + id + '">' +
+          '<rect x="0" y="0" width="24" height="24" fill="#fff"/>' +
+          '<circle class="tcut" cx="12" cy="12" r="6"/>' +
+        '</mask>' +
+        '<g class="trays" stroke-linecap="round">' + rays + '</g>' +
+        '<circle class="tdisc" cx="12" cy="12" r="5" mask="url(#' + id + ')"/>' +
+      '</svg>';
+    b.setAttribute('data-on', effectiveDark() ? '1' : '0');
+    b.setAttribute('aria-label', effectiveDark() ? 'Включить светлую тему' : 'Включить тёмную тему');
+    b.addEventListener('click', function () { applyTheme(effectiveDark() ? 'light' : 'dark'); });
+    return b;
+  }
+  if (window.matchMedia) {
+    var mq = window.matchMedia('(prefers-color-scheme: dark)');
+    var onSystem = function () { if (!document.documentElement.getAttribute('data-theme')) syncThemeButtons(); };
+    if (mq.addEventListener) mq.addEventListener('change', onSystem);
+    else if (mq.addListener) mq.addListener(onSystem);
+  }
+
   /* ---------- экран: список ---------- */
   function viewList() {
     stopSpeech();
@@ -145,9 +198,12 @@
       : 'Тапни слово — покажу перевод'));
     top.appendChild(left);
 
+    var acts = el('div', 'top-actions');
     var toWords = el('button', 'linkbtn', 'Мои слова ›');
     toWords.addEventListener('click', function () { location.hash = '#/words'; });
-    top.appendChild(toWords);
+    acts.appendChild(toWords);
+    acts.appendChild(themeButton());
+    top.appendChild(acts);
     app.appendChild(top);
 
     var langs = el('div', 'langs');
@@ -226,7 +282,10 @@
         });
       }
     });
-    bar.appendChild(speakBtn);
+    var barActs = el('div', 'bar-actions');
+    barActs.appendChild(speakBtn);
+    barActs.appendChild(themeButton());
+    bar.appendChild(barActs);
     app.appendChild(bar);
 
     var wrap = el('article', 'story');
@@ -310,9 +369,12 @@
     var n = Object.keys(words).length;
     left.appendChild(el('p', 'top-sub', n ? n + ' ' + plural(n, 'слово', 'слова', 'слов') : 'Пока пусто'));
     top.appendChild(left);
+    var acts2 = el('div', 'top-actions');
     var back = el('button', 'linkbtn', '‹ Рассказы');
     back.addEventListener('click', function () { location.hash = '#/'; });
-    top.appendChild(back);
+    acts2.appendChild(back);
+    acts2.appendChild(themeButton());
+    top.appendChild(acts2);
     app.appendChild(top);
 
     if (!n) {
@@ -352,6 +414,112 @@
     window.scrollTo(0, 0);
   }
 
+
+  /* ---------- потянуть вниз, чтобы обновить ---------- */
+  var TRIGGER = 64, MAXPULL = 104;
+  var pullEl = null, startY = 0, pullDist = 0, pulling = false, refreshing = false;
+
+  function pullNode() {
+    if (!pullEl) {
+      pullEl = el('div', 'pull');
+      pullEl.appendChild(el('span', 'pull-label', ''));
+      document.body.appendChild(pullEl);
+    }
+    return pullEl;
+  }
+  function showPull(dist, text) {
+    var n = pullNode();
+    pullDist = dist;
+    n.style.transform = 'translateY(' + Math.min(dist, MAXPULL) + 'px)';
+    n.style.opacity = Math.min(1, dist / 36);
+    n.firstChild.textContent = text;
+  }
+  function hidePull() {
+    pullDist = 0;
+    if (!pullEl) return;
+    pullEl.style.transition = 'transform .25s ease, opacity .25s ease';
+    pullEl.style.transform = 'translateY(0)';
+    pullEl.style.opacity = '0';
+    setTimeout(function () { if (pullEl) pullEl.style.transition = ''; }, 280);
+  }
+
+  function toast(msg) {
+    var t = el('div', 'toast', msg);
+    document.body.appendChild(t);
+    setTimeout(function () { t.setAttribute('data-out', '1'); }, 2600);
+    setTimeout(function () { if (t.parentNode) t.parentNode.removeChild(t); }, 3100);
+  }
+
+  function onList() { var h = location.hash; return !h || h === '#' || h === '#/'; }
+
+  document.addEventListener('touchstart', function (e) {
+    if (refreshing || !onList() || e.touches.length !== 1 || window.scrollY > 0) return;
+    startY = e.touches[0].clientY;
+    pulling = true;
+  }, { passive: true });
+
+  document.addEventListener('touchmove', function (e) {
+    if (!pulling) return;
+    if (window.scrollY > 0) { pulling = false; hidePull(); return; }
+    var dy = e.touches[0].clientY - startY;
+    if (dy <= 0) { hidePull(); return; }
+    e.preventDefault();
+    var d = dy * 0.55;
+    showPull(d, d >= TRIGGER ? 'Отпустите — проверю новое' : 'Потяните, чтобы обновить');
+  }, { passive: false });
+
+  document.addEventListener('touchend', function () {
+    if (!pulling) return;
+    pulling = false;
+    if (pullDist >= TRIGGER) refresh(); else hidePull();
+  });
+
+  function refresh() {
+    refreshing = true;
+    showPull(TRIGGER, 'Проверяю…');
+    var finish = function (msg) { refreshing = false; hidePull(); if (msg) toast(msg); };
+
+    if (navigator.onLine === false) {
+      finish('Нет сети. Загляните ещё раз, когда появится интернет');
+      return;
+    }
+    var sw = navigator.serviceWorker;
+    if (!sw || !sw.controller) { location.reload(); return; }
+
+    var ch = new MessageChannel(), done = false;
+    var timer = setTimeout(function () {
+      if (!done) { done = true; finish('Сервер не ответил. Попробуйте ещё раз'); }
+    }, 15000);
+
+    ch.port1.onmessage = function (ev) {
+      if (done) return;
+      done = true; clearTimeout(timer);
+      var d = ev.data || {};
+      if (!d.ok) { finish('Не получилось обновить — нет связи'); return; }
+      if (d.version && d.version !== window.CONTENT_VERSION) {
+        var added = d.count - (window.STORIES || []).length;
+        try { sessionStorage.setItem('read.updated', String(added)); } catch (e2) {}
+        location.reload();
+        return;
+      }
+      finish('Новых рассказов нет');
+    };
+    sw.controller.postMessage({ type: 'refresh' }, [ch.port2]);
+    if (sw.getRegistration) sw.getRegistration().then(function (r) { if (r) r.update(); }).catch(function () {});
+  }
+
+  function announceUpdate() {
+    try {
+      var upd = sessionStorage.getItem('read.updated');
+      if (upd === null) return;
+      sessionStorage.removeItem('read.updated');
+      var n = parseInt(upd, 10) || 0;
+      toast(n > 0
+        ? 'Добавлено ' + n + ' ' + plural(n, 'рассказ', 'рассказа', 'рассказов')
+        : 'Рассказы обновлены');
+    } catch (e) {}
+  }
+
   /* ---------- роутер ---------- */
   function route() {
     closeSheet();
@@ -362,6 +530,8 @@
   }
   window.addEventListener('hashchange', route);
   route();
+  syncThemeButtons();
+  announceUpdate();
 
   if ('serviceWorker' in navigator) {
     navigator.serviceWorker.register('sw.js').catch(function () {});

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Собирает content.js из stories/raw.json + stories/gloss-*.txt.
 Падает, если у какого-то слова в тексте нет перевода."""
-import json, re, os, sys
+import json, re, os, sys, hashlib
 
 base = os.path.dirname(os.path.abspath(__file__))
 stories = json.load(open(base + '/stories/raw.json', encoding='utf-8'))
@@ -40,6 +40,9 @@ for s in stories:
 if bad:
     sys.exit('Сборка остановлена.')
 
+payload = json.dumps(stories, ensure_ascii=False, separators=(',', ':'))
+version = hashlib.sha1(payload.encode('utf-8')).hexdigest()[:10]
 open(base + '/content.js', 'w', encoding='utf-8').write(
-    'window.STORIES = ' + json.dumps(stories, ensure_ascii=False, separators=(',', ':')) + ';\n')
-print('Собрано: %d рассказов, %d слов' % (len(stories), sum(len(s['glossary']) for s in stories)))
+    'window.CONTENT_VERSION = "%s";\nwindow.STORIES = %s;\n' % (version, payload))
+print('Собрано: %d рассказов, %d слов (версия %s)' % (
+    len(stories), sum(len(s['glossary']) for s in stories), version))

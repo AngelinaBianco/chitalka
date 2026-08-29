@@ -9,6 +9,8 @@
   --blu:#2563EB;
   --blu-wash:#EFF4FE;
   --blu-soft:rgba(37,99,235,.28);
+  --on-accent:#FFFFFF;
+  --shadow:rgba(22,21,15,.13);
 
   --book:"Iowan Old Style","Charter","Palatino",Georgia,serif;
   --ui:-apple-system,BlinkMacSystemFont,"Inter","Segoe UI",system-ui,sans-serif;
@@ -16,6 +18,36 @@
   --pad:20px;
   --top:env(safe-area-inset-top,0px);
   --bot:env(safe-area-inset-bottom,0px);
+}
+
+
+/* Тёмная тема: по системе, если человек не выбрал сам */
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --paper:#131210;
+    --card:#1C1B17;
+    --ink:#ECE8DF;
+    --fog:#918C80;
+    --rule:#2C2A24;
+    --blu:#7FA6FF;
+    --blu-wash:#1D2740;
+    --blu-soft:rgba(127,166,255,.34);
+    --on-accent:#12131A;
+    --shadow:rgba(0,0,0,.5);
+  }
+}
+/* Выбор кнопкой перебивает систему */
+:root[data-theme="dark"]{
+  --paper:#131210;
+  --card:#1C1B17;
+  --ink:#ECE8DF;
+  --fog:#918C80;
+  --rule:#2C2A24;
+  --blu:#7FA6FF;
+  --blu-wash:#1D2740;
+  --blu-soft:rgba(127,166,255,.34);
+  --on-accent:#12131A;
+  --shadow:rgba(0,0,0,.5);
 }
 
 *{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
@@ -28,6 +60,7 @@ body{
   line-height:1.5;
   -webkit-text-size-adjust:100%;
   overscroll-behavior-y:none;
+  transition:background-color .32s ease,color .32s ease;
 }
 button{font:inherit;color:inherit;background:none;border:0;padding:0;cursor:pointer}
 :focus-visible{outline:2px solid var(--blu);outline-offset:3px;border-radius:4px}
@@ -94,7 +127,7 @@ button{font:inherit;color:inherit;background:none;border:0;padding:0;cursor:poin
   font-size:14px;color:var(--blu);padding:8px 14px;border:1px solid var(--blu-soft);
   border-radius:999px;display:flex;align-items:center;gap:7px;
 }
-.speak[data-on="1"]{background:var(--blu);color:#fff;border-color:var(--blu)}
+.speak[data-on="1"]{background:var(--blu);color:var(--on-accent);border-color:var(--blu)}
 
 .story{padding:30px 0 90px}
 .story-eyebrow{margin-bottom:12px}
@@ -111,7 +144,7 @@ button{font:inherit;color:inherit;background:none;border:0;padding:0;cursor:poin
   background:linear-gradient(to top,var(--blu-wash) 0 .42em,transparent .42em);
   box-shadow:inset 0 -1px 0 var(--blu-soft);
 }
-.w[data-active="1"]{background:var(--blu);color:#fff;box-shadow:none}
+.w[data-active="1"]{background:var(--blu);color:var(--on-accent);box-shadow:none}
 
 .done-row{padding:8px 0 60px}
 .done-btn{
@@ -121,13 +154,13 @@ button{font:inherit;color:inherit;background:none;border:0;padding:0;cursor:poin
 .done-btn[data-done="1"]{color:var(--fog)}
 
 /* ---------- карточка слова ---------- */
-.scrim{position:fixed;inset:0;background:rgba(22,21,15,.22);z-index:20;animation:fade .2s ease}
+.scrim{position:fixed;inset:0;background:rgba(10,9,6,.32);z-index:20;animation:fade .2s ease}
 @keyframes fade{from{opacity:0}}
 .sheet{
   position:fixed;left:0;right:0;bottom:0;z-index:21;
   background:var(--card);border-radius:20px 20px 0 0;
   padding:22px var(--pad) calc(22px + var(--bot));
-  box-shadow:0 -8px 40px rgba(22,21,15,.13);
+  box-shadow:0 -8px 40px var(--shadow);
   animation:rise .24s cubic-bezier(.22,.9,.3,1);
   max-width:37rem;margin:0 auto;
 }
@@ -141,7 +174,7 @@ button{font:inherit;color:inherit;background:none;border:0;padding:0;cursor:poin
   flex:1;padding:13px;border-radius:12px;border:1px solid var(--rule);
   font-size:15px;font-weight:500;text-align:center;background:var(--paper);
 }
-.act.primary{background:var(--blu);border-color:var(--blu);color:#fff}
+.act.primary{background:var(--blu);border-color:var(--blu);color:var(--on-accent)}
 .act.primary[data-saved="1"]{background:var(--blu-wash);border-color:var(--blu-soft);color:var(--blu)}
 .sheet-none{font-size:15px;color:var(--fog);margin-top:8px}
 
@@ -161,3 +194,46 @@ button{font:inherit;color:inherit;background:none;border:0;padding:0;cursor:poin
 @media (prefers-reduced-motion:reduce){
   *{animation-duration:.01ms !important;transition-duration:.01ms !important}
 }
+
+/* ---------- потянуть вниз, чтобы обновить ---------- */
+.pull{
+  position:fixed;top:0;left:0;right:0;z-index:15;
+  height:56px;margin-top:-56px;opacity:0;pointer-events:none;
+  display:flex;align-items:center;justify-content:center;
+}
+.pull-label{
+  font-size:11px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;
+  color:var(--blu);background:var(--card);border:1px solid var(--rule);
+  border-radius:999px;padding:8px 16px;box-shadow:0 4px 16px var(--shadow);
+  white-space:nowrap;
+}
+.toast{
+  position:fixed;left:50%;bottom:calc(28px + var(--bot));transform:translateX(-50%);
+  z-index:30;background:var(--ink);color:var(--paper);font-size:14px;line-height:1.35;
+  padding:12px 18px;border-radius:12px;box-shadow:0 8px 30px var(--shadow);
+  max-width:calc(100% - 40px);text-align:center;
+  animation:toast-in .2s ease;transition:opacity .4s ease,transform .4s ease;
+}
+.toast[data-out="1"]{opacity:0;transform:translateX(-50%) translateY(8px)}
+@keyframes toast-in{from{opacity:0;transform:translateX(-50%) translateY(10px)}}
+
+/* ---------- солнце ↔ луна ---------- */
+.top-actions{display:flex;align-items:center;gap:14px;flex:none}
+.bar-actions{display:flex;align-items:center;gap:10px}
+.theme{
+  width:36px;height:36px;border-radius:999px;flex:none;
+  border:1px solid var(--rule);background:var(--card);
+  display:flex;align-items:center;justify-content:center;
+  transition:border-color .32s ease,background-color .32s ease;
+}
+.theme svg{width:20px;height:20px;overflow:visible}
+.theme .tdisc,.theme .tcut,.theme .trays{
+  transform-box:view-box;transform-origin:12px 12px;
+  transition:transform .5s cubic-bezier(.34,1.2,.42,1),opacity .32s ease;
+}
+.theme .tdisc{fill:var(--blu)}
+.theme .tcut{fill:#000;transform:translate(13px,-13px)}
+.theme .trays{stroke:var(--blu);stroke-width:1.8;opacity:1}
+.theme[data-on="1"] .tdisc{transform:scale(1.24)}
+.theme[data-on="1"] .tcut{transform:translate(5.2px,-4.4px)}
+.theme[data-on="1"] .trays{transform:scale(.2) rotate(-45deg);opacity:0}

@@ -11,6 +11,10 @@
 <meta name="apple-mobile-web-app-title" content="Читалка">
 <meta name="theme-color" content="#F5F4EF">
 <link rel="apple-touch-icon" href="icon-180.png">
+<script>
+/* тема выбирается до первой отрисовки, чтобы не было вспышки */
+try{var t=localStorage.getItem('read.theme');if(t)document.documentElement.setAttribute('data-theme',t);}catch(e){}
+</script>
 <link rel="stylesheet" href="app.css">
 </head>
 <body>
