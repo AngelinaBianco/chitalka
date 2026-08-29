@@ -1,0 +1,49 @@
+#de-1
+Глагол всегда на втором месте|In der Küche macht sie Kaffee|Что бы ни стояло первым — обстоятельство, дополнение, время, — глагол остаётся вторым, а подлежащее уезжает за него. Отсюда порядок «на кухне варит она кофе».
+Отделяемая приставка уходит в конец|Anna steht auf und öffnet das Fenster|Глагол aufstehen в предложении разваливается: steht … auf. Приставка встаёт в самый конец, и без неё смысл другой (stehen — просто стоять).
+Вежливое Sie пишут с большой буквы|Wie geht es Ihnen|Sie, Ihnen, Ihr в значении «Вы» всегда с заглавной. Строчное sie — это «она» или «они».
+
+#de-2
+mit, zu, nach требуют дательного|mit roten Kopfhörern|После этих предлогов существительное меняет окончания: mit roten Kopfhörern, zu ihrer Schwester, nach einer Stunde. Дательный падеж здесь обязателен.
+Снова отделяемая приставка|Der Zug fährt los|losfahren — «трогаться». В предложении los уезжает в конец, как и auf у aufstehen.
+Angst haben — бояться|Er hat Angst|Там, где по-русски глагол, немецкий часто ставит существительное плюс haben: Angst haben — бояться, Hunger haben — быть голодным.
+
+#de-3
+Перфект с sein, а не haben|Er ist vor zehn Jahren gestorben|Глаголы движения и изменения состояния (gehen, kommen, sterben, bleiben) строят прошедшее с sein: ist gestorben, ist gegangen. Остальные берут haben.
+vor + дательный — «столько-то назад»|vor zehn Jahren|vor zehn Jahren — десять лет назад, vor einer Woche — неделю назад. Тот же предлог значит и «перед», всё решает контекст.
+Предлоги места с дательным|Der Hund sitzt neben dem Bett|Когда речь о том, где что находится (а не куда движется), после in, neben, über, unter идёт дательный: im zweiten Stock, neben dem Bett, über mir.
+
+#de-4
+Сначала время, потом место|Am Montagmorgen findet Herr Weber eine rote Tasche im Bus|Немецкое предложение любит порядок «когда — где»: am Montagmorgen … im Bus. Если поменять местами, звучит не по-немецки.
+Родительный падеж|Es ist das Haus seiner Großmutter|«Дом бабушки» — seiner Großmutter, с окончанием -er. Родительный отвечает на вопрос «чей» и в письменной речи встречается постоянно.
+Состояние, а не действие|das Haus ist verkauft|ist verkauft описывает результат: дом продан и стоит проданный. Само действие было бы wurde verkauft — «его продали».
+
+#de-5
+Возвратное sich|Herr Weber setzt sich langsam auf einen Stuhl|sich setzen — садиться. Частица sich идёт сразу после глагола и меняется по лицам: ich setze mich, du setzt dich, er setzt sich.
+immer noch — «всё ещё»|Das Tor ist immer noch gelb|Два слова вместе значат «до сих пор». Одно noch — просто «ещё».
+Повелительное наклонение|«Lies ihn», sagt sie|У сильных глаголов в приказе меняется корень: du liest → Lies! Окончание при этом отпадает.
+
+#de-6
+weil и obwohl отправляют глагол в конец|weil das Obst dort besser ist als im Supermarkt|После союзов weil, obwohl, dass, wenn глагол уезжает в самый конец придаточного: … besser ist. Это главное отличие придаточного от обычного предложения.
+Сравнение через als|besser ist als im Supermarkt|besser als — лучше чем, größer als — больше чем. Als только для сравнения разных вещей; wie значит «так же, как».
+gehören требует дательного|Eine Stadt gehört dir erst|gehören — принадлежать: gehört dir, gehört mir. Не «тебя», а «тебе».
+
+#de-7
+Перфект как обычное прошедшее|Am Samstag hat er seine Tante angerufen|В разговорной речи почти всё прошедшее строится через haben или sein плюс причастие: hat angerufen, hat geöffnet, ist gestorben. Простое прошедшее остаётся книгам.
+nicht …, sondern … — «не …, а …»|Innen war keine Rechnung, sondern ein Foto|sondern употребляют только после отрицания, когда одно заменяется другим. Если противопоставления нет — берут aber.
+warten auf — ждать кого-то|auf den deine Mutter dreißig Jahre gewartet hat|Многие глаголы требуют своего предлога: warten auf (ждать кого), denken an (думать о), sich freuen über (радоваться чему). Их учат вместе с предлогом.
+
+#de-8
+dass отправляет глагол в конец|aber Julia weiß, dass er kein Wasser will|После dass всё придаточное перестраивается: подлежащее, потом остальное, и глагол последним — will.
+sich gewöhnen an — привыкать к|der Körper gewöhnt sich daran|Возвратный глагол с предлогом. Когда вместо предмета стоит целая ситуация, an das сливается в daran.
+als или wenn|Als sie geht, ist der Mann eingeschlafen|als — про один случай в прошлом, wenn — про повторяющееся или будущее. Здесь событие однократное, поэтому als.
+
+#de-9
+als ob — «как будто»|als ob Herr Weber jeden Sonntag käme|После als ob идёт конъюнктив: käme вместо kommt, wäre вместо ist. Так показывают, что на самом деле этого нет.
+Модальный глагол в прошедшем|dass sie mit siebzehn ein Kind bekommen hat und es weggeben musste|У модальных глаголов простое прошедшее живее перфекта: musste, konnte, wollte. В придаточном они встают в самый конец.
+Порядок в придаточном с перфектом|dass sie mit siebzehn ein Kind bekommen hat|Причастие идёт предпоследним, а вспомогательный глагол закрывает предложение: … bekommen hat. В главном предложении порядок был бы обратный.
+
+#de-10
+Konjunktiv II — то, чего не случилось|«Und wenn ich sie nicht gefunden hätte?»|hätte и wäre строят нереальное условие: «а если бы я её не нашёл». Ответ идёт в той же форме: hätte jemand anders Glück gehabt.
+ohne zu + инфинитив|Herr Weber ist gegangen, ohne zu antworten|Конструкция значит «не сделав чего-то»: ohne zu antworten — не ответив, ohne zu fragen — не спросив.
+sich trauen — решаться|weil er sich nicht getraut hat|Возвратный глагол «отважиться, решиться». В перфекте частица sich остаётся при подлежащем, а причастие уходит в конец.

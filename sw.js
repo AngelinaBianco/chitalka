@@ -1,5 +1,5 @@
 /* Оффлайн-кэш. При выкладке новых рассказов поднимаем VERSION. */
-var VERSION = 'read-v4';
+var VERSION = 'read-v5';
 var FILES = [
   './', 'index.html', 'app.css', 'app.js', 'content.js',
   'manifest.webmanifest', 'icon-180.png', 'icon-192.png', 'icon-512.png'

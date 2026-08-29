@@ -24,6 +24,24 @@ RU = {}
 for name in ('ru-it.txt', 'ru-de.txt'):
     RU.update(read_ru(base + '/stories/' + name))
 
+def read_notes(path):
+    notes, cur = {}, None
+    for line in open(path, encoding='utf-8'):
+        line = line.rstrip('\n')
+        if not line.strip():
+            continue
+        if line.startswith('#'):
+            cur = line[1:].strip(); notes[cur] = []; continue
+        parts = line.split('|')
+        if len(parts) != 3:
+            sys.exit('Кривая заметка в %s: %s' % (path, line))
+        notes[cur].append({'t': parts[0].strip(), 'e': parts[1].strip(), 'x': parts[2].strip()})
+    return notes
+
+NOTES = {}
+for name in ('notes-it.txt', 'notes-de.txt'):
+    NOTES.update(read_notes(base + '/stories/' + name))
+
 def read_gloss(path):
     g, cur = {}, None
     for line in open(path, encoding='utf-8'):
@@ -64,6 +82,17 @@ for s in stories:
     if missing:
         print(s['id'], 'нет перевода:', ', '.join(missing)); bad = 1
     s['glossary'] = {f: (own[f] if f in own else pool[f]) for f in forms if f in own or f in pool}
+
+# Грамматические заметки: пример обязан дословно встречаться в рассказе
+for s_ in stories:
+    notes = NOTES.get(s_['id'], [])
+    if not notes:
+        print(s_['id'], 'нет грамматических заметок'); bad = 1
+    text = ' '.join(s_['paragraphs'])
+    for note in notes:
+        if note['e'] not in text:
+            print(s_['id'], 'пример не найден в тексте:', note['e']); bad = 1
+    s_['notes'] = notes
 
 # Фразы с переводом: каждая фраза рассказа должна быть переведена
 for s_ in stories:

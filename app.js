@@ -468,6 +468,19 @@
 
     wrap.appendChild(body);
 
+    if (story.notes && story.notes.length) {
+      var nb = el('section', 'notes');
+      nb.appendChild(el('div', 'eyebrow', 'Что здесь за грамматика'));
+      story.notes.forEach(function (n) {
+        var item = el('div', 'note');
+        item.appendChild(el('div', 'note-t', n.t));
+        item.appendChild(el('div', 'note-e', n.e));
+        item.appendChild(el('div', 'note-x', n.x));
+        nb.appendChild(item);
+      });
+      wrap.appendChild(nb);
+    }
+
     var row = el('div', 'done-row');
     var doneBtn = el('button', 'done-btn');
     var p0 = storyProgress(story.id);

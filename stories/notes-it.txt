@@ -1,0 +1,49 @@
+#it-1
+Частица si — «себя»|Il barista si chiama Gino|Возвратные глаголы носят si: chiamarsi — «звать себя». Дословно «бариста себя зовёт Джино». Так же устроено la città si sveglia — город будит себя, то есть просыпается.
+Предлог сливается с артиклем|Al bar Marta ordina sempre la stessa cosa|a + il = al, a + le = alle, di + il = del, su + il = sul. Отдельно «a il» не говорят никогда — только слитно.
+Двойное отрицание — норма|nessuno dice niente|В итальянском отрицания складываются, а не отменяют друг друга. Nessuno dice niente — «никто ничего не говорит», и оба слова обязательны.
+
+#it-2
+da — про длительность, которая ещё идёт|un amico che non vede da tre anni|da + срок = «уже столько-то и до сих пор». Non vede da tre anni — не видит три года и сегодня тоже. Наше «уже три года как».
+Будущее время на -anno|non saranno più tre|Третье лицо множественного числа в будущем всегда кончается на -anno: saranno (будут), vedranno (увидят), andranno (пойдут).
+andare a trovare — навестить|Anche lui va a trovare qualcuno|Дословно «идти найти», но значит «пойти в гости, навестить». Trovare здесь не про поиск.
+
+#it-3
+Прошедшее: avere или essere|Sono tornato la domenica|Passato prossimo строится из вспомогательного глагола и причастия. С большинством глаголов берут avere (ho comprato), а с глаголами движения — essere (sono tornato). И тогда причастие согласуется с говорящим: женщина скажет sono tornata.
+Imperfetto — фон, а не событие|Aveva la febbre e in casa faceva freddo|Imperfetto (aveva, faceva, dormiva) описывает состояние и длительность: «было, стояло, длилось». Однократное событие идёт в passato prossimo: ho bussato — постучал один раз.
+Местоимение перед глаголом|Un giovedì di novembre non l’ho vista|Короткие местоимения встают перед глаголом: l’ho vista — «её я видел». И причастие подстраивается под род: vista про неё, visto про него.
+
+#it-4
+c’è и ci sono — «есть, имеется»|non c’è sangue|c’è для одного предмета, ci sono для нескольких. Отрицание ставится перед: non c’è — «нет, отсутствует».
+Imperfetto для описания человека|Si chiamava Anna Vitali, aveva quarant’anni|Когда рассказывают, каким кто-то был, идёт imperfetto: si chiamava, aveva, lavorava. Это не события, а свойства.
+Будущее от dovere|qualcuno dovrà spiegare|dovere в будущем: dovrò, dovrai, dovrà. Dovrà spiegare — «придётся объяснить».
+
+#it-5
+stare + герундий — «в процессе»|Stava aspettando qualcuno|Конструкция stare + -ando/-endo описывает то, что длилось прямо в тот момент. Stava aspettando — «как раз ждала».
+senza + инфинитив|La chiave gira senza difficoltà|После senza идёт либо существительное (senza difficoltà — без труда), либо сразу инфинитив: senza lasciare — не оставив.
+Большие числа пишутся слитно|una busta gialla con dodicimila euro|dodicimila — двенадцать тысяч, centoventi — сто двадцать. Внутри числа пробелов нет.
+
+#it-6
+Congiuntivo после basta che|basta che tu sappia scegliere un melone maturo|После выражений вроде basta che, è meglio che, voglio che идёт сослагательное наклонение: не sai, а sappia. Это не ошибка — это обязательная форма.
+da quando — «с тех пор как»|Sofia ci viene da quando si è trasferita in città|da quando вводит момент, с которого всё началось, и дальше идёт прошедшее время.
+Косвенное местоимение le — «ей»|le mette da parte le albicocche migliori|le перед глаголом значит «ей». А mettere da parte — устойчивое «откладывать в сторону».
+
+#it-7
+Passato remoto — книжное прошедшее|La lettera arrivò di martedì|Формы arrivò, lasciò, passò, disse — это passato remoto. В разговоре на севере его почти не услышишь, но в книгах он повсюду. Достаточно узнавать, употреблять необязательно.
+Сослагательное после «не понимал, кто»|Marco non capiva chi gliel’avesse mandata|Когда главная часть выражает незнание или сомнение, придаточное уходит в congiuntivo: avesse mandata, а не aveva mandato.
+Склейка двух местоимений|chi gliel’avesse mandata|glielo = glie (ему) + lo (это). Перед гласной сокращается до gliel’. Так же устроены me lo, te lo, ce lo.
+
+#it-8
+Condizionale passato — «должна была бы»|sa che avrebbe dovuto controllare altre due stanze|avere в условном наклонении плюс причастие: avrebbe dovuto — «должна была бы». Говорит о том, что следовало сделать, но не сделали.
+Безличное si|Dice che si abitua il corpo|si перед глаголом часто значит «вообще, само собой»: si abitua — привыкается. Без указания, кто именно.
+Сравнение через di|ogni pensiero diventa più grande di quello che è|più … di — «больше, чем». Di используют перед существительным или местоимением.
+
+#it-9
+come se + congiuntivo|guardò la pagina come se fosse la prima volta|После come se («как будто») всегда идёт congiuntivo imperfetto: fosse, avesse, sapesse. Настоящее время здесь невозможно.
+Trapassato — «раньше, чем прошлое»|Anna aveva scoperto che alcuni conti servivano|aveva scoperto — действие, случившееся до другого прошлого. Строится из imperfetto глагола avere и причастия.
+far + инфинитив — «дать сделать»|far passare denaro|Конструкция fare + инфинитив значит «заставить или позволить сделать». Far passare — «пропускать, проводить».
+
+#it-10
+perché в значении «чтобы»|troppo alta perché una donna ci cadesse per sbaglio|Обычно perché — «потому что». Но если после него стоит congiuntivo (cadesse, spingesse), значит перед нами «чтобы»: слишком высоко, чтобы упасть случайно.
+Будущее в прошедшем|«Sapevo che sarebbe venuto», disse|Чтобы сказать «я знала, что вы придёте», итальянский берёт условное наклонение: sarebbe venuto. Дословно «что пришёл бы».
+andarsene — уходить прочь|Che se n’era andata sbattendo la porta|Глагол andarsene всегда тащит за собой две частицы: me ne vado, se ne va, se n’era andata. Значение — не просто «идти», а «уходить отсюда».
