@@ -6,6 +6,24 @@ import json, re, os, sys, hashlib
 base = os.path.dirname(os.path.abspath(__file__))
 stories = json.load(open(base + '/stories/raw.json', encoding='utf-8'))
 
+SPLIT = re.compile(r'(?<=[.!?…»])\s+(?=[«"A-ZÀ-ÿА-Я])')
+
+def read_ru(path):
+    ru, cur = {}, None
+    for line in open(path, encoding='utf-8'):
+        line = line.rstrip('\n')
+        if not line.strip():
+            continue
+        if line.startswith('#'):
+            cur = line[1:].strip(); ru[cur] = {}; continue
+        key, text = line.split('|', 1)
+        ru[cur][key.strip()] = text.strip()
+    return ru
+
+RU = {}
+for name in ('ru-it.txt', 'ru-de.txt'):
+    RU.update(read_ru(base + '/stories/' + name))
+
 def read_gloss(path):
     g, cur = {}, None
     for line in open(path, encoding='utf-8'):
@@ -47,6 +65,28 @@ for s in stories:
         print(s['id'], 'нет перевода:', ', '.join(missing)); bad = 1
     s['glossary'] = {f: (own[f] if f in own else pool[f]) for f in forms if f in own or f in pool}
 
+# Фразы с переводом: каждая фраза рассказа должна быть переведена
+for s_ in stories:
+    ru = RU.get(s_['id'], {})
+    para_out = []
+    for pi, para in enumerate(s_['paragraphs']):
+        sents = SPLIT.split(para)
+        row = []
+        for si, sent in enumerate(sents):
+            key = '%d.%d' % (pi, si)
+            if key not in ru:
+                print(s_['id'], 'нет перевода фразы', key + ':', sent); bad = 1
+                row.append([sent, ''])
+            else:
+                row.append([sent, ru[key]])
+        para_out.append(row)
+    extra_ru = [k for k in ru if k not in
+                {'%d.%d' % (pi, si) for pi, para in enumerate(s_['paragraphs'])
+                 for si in range(len(SPLIT.split(para)))}]
+    if extra_ru:
+        print(s_['id'], 'лишние переводы фраз:', ', '.join(sorted(extra_ru))); bad = 1
+    s_['paragraphs'] = para_out
+
 if bad:
     sys.exit('Сборка остановлена.')
 
@@ -54,5 +94,6 @@ payload = json.dumps(stories, ensure_ascii=False, separators=(',', ':'))
 version = hashlib.sha1(payload.encode('utf-8')).hexdigest()[:10]
 open(base + '/content.js', 'w', encoding='utf-8').write(
     'window.CONTENT_VERSION = "%s";\nwindow.STORIES = %s;\n' % (version, payload))
-print('Собрано: %d рассказов, %d слов (версия %s)' % (
-    len(stories), sum(len(s['glossary']) for s in stories), version))
+print('Собрано: %d рассказов, %d слов, %d фраз (версия %s)' % (
+    len(stories), sum(len(s['glossary']) for s in stories),
+    sum(len(row) for s in stories for row in s['paragraphs']), version))

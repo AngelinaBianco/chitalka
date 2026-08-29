@@ -212,3 +212,4 @@ zurückgeschickt|отправил обратно|zurückschicken — отпра�
 zweimal|дважды|наречие
 ähnlich|похож (sieht dir ähnlich)|прилагательное
 übrig|осталось|наречие
+vierzehnte|четырнадцатое|vierzehn — четырнадцать

@@ -24,6 +24,7 @@
   var progress = load('read.progress', {}); // storyId -> {pos: 0..1, done: bool}
   var lang = load('read.lang', 'it');
   var step = load('read.step', 1);
+  var readLog = load('read.log', {});
 
   function wordKey(l, form) { return l + ':' + form.toLowerCase(); }
   function storyProgress(id) { return progress[id] || { pos: 0, done: false }; }
@@ -76,6 +77,8 @@
   function closeSheet() {
     sheet.hidden = true; scrim.hidden = true; sheet.innerHTML = '';
     if (activeSpan) { activeSpan.removeAttribute('data-active'); activeSpan = null; }
+    var lit = document.querySelector('.s[data-lit="1"]');
+    if (lit) lit.removeAttribute('data-lit');
   }
   scrim.addEventListener('click', closeSheet);
 
@@ -129,6 +132,29 @@
     sheet.hidden = false; scrim.hidden = false;
   }
 
+
+  function openSentence(node, story) {
+    var sent = node.closest ? node.closest('.s') : null;
+    if (!sent) return;
+    if (activeSpan) { activeSpan.removeAttribute('data-active'); activeSpan = null; }
+    var prev = document.querySelector('.s[data-lit="1"]');
+    if (prev) prev.removeAttribute('data-lit');
+    sent.setAttribute('data-lit', '1');
+
+    sheet.innerHTML = '';
+    sheet.appendChild(el('div', 'sheet-grip'));
+    sheet.appendChild(el('div', 'eyebrow', 'Фраза целиком'));
+    sheet.appendChild(el('div', 'sheet-sent', sent.textContent.trim()));
+    sheet.appendChild(el('div', 'sheet-tr', sent.getAttribute('data-ru')));
+
+    var actions = el('div', 'sheet-actions');
+    var listen = el('button', 'act', '▶︎  Послушать');
+    listen.addEventListener('click', function () { speak(sent.textContent.trim(), story.lang); });
+    actions.appendChild(listen);
+    sheet.appendChild(actions);
+    sheet.hidden = false; scrim.hidden = false;
+  }
+
   function paintSaved(story) {
     var spans = document.querySelectorAll('.w');
     for (var i = 0; i < spans.length; i++) {
@@ -138,6 +164,47 @@
     }
   }
 
+
+
+  /* ---------- серия дней ---------- */
+  function pad2(n) { return (n < 10 ? '0' : '') + n; }
+  function dayKey(d) { return d.getFullYear() + '-' + pad2(d.getMonth() + 1) + '-' + pad2(d.getDate()); }
+  function addReading(sec) {
+    var k = dayKey(new Date());
+    readLog[k] = (readLog[k] || 0) + sec;
+    save('read.log', readLog);
+  }
+  function streakDays() {
+    var n = 0, d = new Date();
+    if (!readLog[dayKey(d)]) d.setDate(d.getDate() - 1);
+    while (readLog[dayKey(d)]) { n++; d.setDate(d.getDate() - 1); }
+    return n;
+  }
+  function weekMinutes() {
+    var sec = 0, d = new Date();
+    for (var i = 0; i < 7; i++) { sec += readLog[dayKey(d)] || 0; d.setDate(d.getDate() - 1); }
+    return Math.round(sec / 60);
+  }
+  function streakStrip() {
+    var wrap = el('div', 'streak');
+    var dots = el('div', 'dots');
+    for (var i = 6; i >= 0; i--) {
+      var d = new Date(); d.setDate(d.getDate() - i);
+      var dot = el('span', 'dot');
+      if (readLog[dayKey(d)]) dot.setAttribute('data-on', '1');
+      if (i === 0) dot.setAttribute('data-today', '1');
+      dots.appendChild(dot);
+    }
+    wrap.appendChild(dots);
+    var n = streakDays(), mins = weekMinutes(), text;
+    if (n > 1) text = n + ' ' + plural(n, 'день', 'дня', 'дней') + ' подряд';
+    else if (readLog[dayKey(new Date())]) text = 'Сегодня уже читала';
+    else if (n === 1) text = 'Вчера читала — не теряй серию';
+    else text = 'Открой рассказ, и серия начнётся';
+    if (mins > 0) text += ' · ' + mins + ' мин за неделю';
+    wrap.appendChild(el('span', 'streak-text', text));
+    return wrap;
+  }
 
   /* ---------- тема: солнце ↔ луна ---------- */
   var themeSeq = 0;
@@ -194,24 +261,25 @@
   /* ---------- экран: список ---------- */
   function viewList() {
     stopSpeech();
+    if (readTimer) { clearInterval(readTimer); readTimer = null; }
     app.innerHTML = '';
 
     var top = el('div', 'top');
     var left = el('div');
     left.appendChild(el('h1', 'top-title', 'Читалка'));
     var total = Object.keys(words).length;
-    left.appendChild(el('p', 'top-sub', total
-      ? total + ' ' + plural(total, 'слово', 'слова', 'слов') + ' в словаре'
-      : 'Тапни слово — покажу перевод'));
+    left.appendChild(el('p', 'top-sub', 'Тап — перевод слова, долгое нажатие — вся фраза'));
     top.appendChild(left);
 
     var acts = el('div', 'top-actions');
-    var toWords = el('button', 'linkbtn', 'Мои слова ›');
+    var toWords = el('button', 'linkbtn', total ? 'Мои слова · ' + total + ' ›' : 'Мои слова ›');
     toWords.addEventListener('click', function () { location.hash = '#/words'; });
     acts.appendChild(toWords);
     acts.appendChild(themeButton());
     top.appendChild(acts);
     app.appendChild(top);
+
+    app.appendChild(streakStrip());
 
     var langs = el('div', 'langs');
     ['it', 'de'].forEach(function (l) {
@@ -272,32 +340,61 @@
   }
 
   /* ---------- экран: рассказ ---------- */
-  var scrollHandler = null;
+  var scrollHandler = null, readTimer = null;
 
   function viewStory(id) {
     var story = (window.STORIES || []).filter(function (s) { return s.id === id; })[0];
     if (!story) { location.hash = '#/'; return; }
 
     app.innerHTML = '';
+    var paraWords = [], playing = false;
     var bar = el('div', 'reader-bar');
     var back = el('button', 'back', '‹  Рассказы');
     back.addEventListener('click', function () { location.hash = '#/'; });
     bar.appendChild(back);
 
     var speakBtn = el('button', 'speak', '▶︎  Слушать');
-    speakBtn.addEventListener('click', function () {
-      if (speakBtn.getAttribute('data-on') === '1') {
-        stopSpeech();
-        speakBtn.setAttribute('data-on', '0');
-        speakBtn.textContent = '▶︎  Слушать';
-      } else {
-        speakBtn.setAttribute('data-on', '1');
-        speakBtn.textContent = '■  Стоп';
-        speak(story.paragraphs.join(' '), story.lang, function () {
-          speakBtn.setAttribute('data-on', '0');
-          speakBtn.textContent = '▶︎  Слушать';
-        });
+
+    function clearSaid() {
+      var lit = document.querySelector('.w[data-say="1"]');
+      if (lit) lit.removeAttribute('data-say');
+    }
+    function markSaid(span) {
+      clearSaid();
+      span.setAttribute('data-say', '1');
+      var r = span.getBoundingClientRect();
+      if (r.top < 90 || r.bottom > window.innerHeight * 0.82) {
+        span.scrollIntoView({ block: 'center', behavior: 'smooth' });
       }
+    }
+    function stopPlay() {
+      playing = false; stopSpeech(); clearSaid();
+      speakBtn.setAttribute('data-on', '0');
+      speakBtn.textContent = '▶︎  Слушать';
+    }
+    function playFrom(pi) {
+      if (!playing || !synth || pi >= story.paragraphs.length) { stopPlay(); return; }
+      var text = story.paragraphs[pi].map(function (x) { return x[0]; }).join(' ');
+      var u = new SpeechSynthesisUtterance(text);
+      u.lang = LANGS[story.lang].voice;
+      u.rate = 0.85;
+      u.onboundary = function (ev) {
+        if (ev.name && ev.name !== 'word') return;
+        var marks = paraWords[pi] || [], ci = ev.charIndex;
+        for (var i = 0; i < marks.length; i++) {
+          if (ci >= marks[i].start && ci < marks[i].end) { markSaid(marks[i].span); return; }
+        }
+      };
+      u.onend = function () { if (playing) playFrom(pi + 1); };
+      u.onerror = function () { stopPlay(); };
+      synth.speak(u);
+    }
+    speakBtn.addEventListener('click', function () {
+      if (playing) { stopPlay(); return; }
+      playing = true;
+      speakBtn.setAttribute('data-on', '1');
+      speakBtn.textContent = '■  Стоп';
+      playFrom(0);
     });
     var barActs = el('div', 'bar-actions');
     barActs.appendChild(speakBtn);
@@ -312,22 +409,63 @@
     wrap.appendChild(el('p', 'story-ru', story.titleRu));
 
     var body = el('div', 'story-body');
-    story.paragraphs.forEach(function (para) {
-      var p = el('p');
-      var parts = para.split(/([^\p{L}\p{M}]+)/u);
-      parts.forEach(function (part) {
-        if (!part) return;
-        if (/[\p{L}]/u.test(part)) {
-          var span = el('span', 'w', part);
-          if (words[wordKey(story.lang, part)]) span.setAttribute('data-saved', '1');
-          span.addEventListener('click', function () { openWord(span, story); });
-          p.appendChild(span);
-        } else {
-          p.appendChild(document.createTextNode(part));
-        }
+    story.paragraphs.forEach(function (para, pi) {
+      var p = el('p'), marks = [], offset = 0;
+      para.forEach(function (pair, si) {
+        if (si > 0) { p.appendChild(document.createTextNode(' ')); offset += 1; }
+        var sent = el('span', 's');
+        sent.setAttribute('data-ru', pair[1]);
+        pair[0].split(/([^\p{L}\p{M}]+)/u).forEach(function (part) {
+          if (!part) return;
+          if (/[\p{L}]/u.test(part)) {
+            var span = el('span', 'w', part);
+            if (words[wordKey(story.lang, part)]) span.setAttribute('data-saved', '1');
+            marks.push({ start: offset, end: offset + part.length, span: span });
+            sent.appendChild(span);
+          } else {
+            sent.appendChild(document.createTextNode(part));
+          }
+          offset += part.length;
+        });
+        p.appendChild(sent);
       });
+      paraWords.push(marks);
       body.appendChild(p);
     });
+
+    var pressTimer = null, pressX = 0, pressY = 0, skipClick = false;
+    function isWord(t) { return t && t.classList && t.classList.contains('w'); }
+
+    body.addEventListener('click', function (e) {
+      if (skipClick) { skipClick = false; return; }
+      if (isWord(e.target)) openWord(e.target, story);
+    });
+    body.addEventListener('touchstart', function (e) {
+      skipClick = false;
+      if (!isWord(e.target) || e.touches.length !== 1) return;
+      var target = e.target;
+      pressX = e.touches[0].clientX; pressY = e.touches[0].clientY;
+      pressTimer = setTimeout(function () {
+        pressTimer = null; skipClick = true;
+        if (navigator.vibrate) navigator.vibrate(12);
+        openSentence(target, story);
+      }, 450);
+    }, { passive: true });
+    body.addEventListener('touchmove', function (e) {
+      if (!pressTimer) return;
+      if (Math.abs(e.touches[0].clientX - pressX) > 8 || Math.abs(e.touches[0].clientY - pressY) > 8) {
+        clearTimeout(pressTimer); pressTimer = null;
+      }
+    }, { passive: true });
+    body.addEventListener('touchend', function () {
+      if (pressTimer) { clearTimeout(pressTimer); pressTimer = null; }
+    });
+    body.addEventListener('contextmenu', function (e) {
+      if (!isWord(e.target)) return;
+      e.preventDefault();
+      openSentence(e.target, story);
+    });
+
     wrap.appendChild(body);
 
     var row = el('div', 'done-row');
@@ -367,6 +505,13 @@
     };
     window.addEventListener('scroll', scrollHandler, { passive: true });
 
+    if (readTimer) clearInterval(readTimer);
+    readTimer = setInterval(function () {
+      if (document.hidden || location.hash.indexOf('#/s/') !== 0) return;
+      addReading(15);
+    }, 15000);
+    addReading(1);
+
     window.scrollTo(0, 0);
     if (p0.pos > 0.02 && p0.pos < 0.98 && !p0.done) {
       setTimeout(function () {
@@ -379,6 +524,7 @@
   /* ---------- экран: мои слова ---------- */
   function viewWords() {
     stopSpeech();
+    if (readTimer) { clearInterval(readTimer); readTimer = null; }
     app.innerHTML = '';
     var top = el('div', 'top');
     var left = el('div');
