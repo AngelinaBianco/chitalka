@@ -1,0 +1,163 @@
+/* Читалка — Orderoom. Кремовая бумага, синий акцент, книжная антиква для текста. */
+
+:root{
+  --paper:#F5F4EF;
+  --card:#FFFFFF;
+  --ink:#16150F;
+  --fog:#8A877B;
+  --rule:#E4E1D7;
+  --blu:#2563EB;
+  --blu-wash:#EFF4FE;
+  --blu-soft:rgba(37,99,235,.28);
+
+  --book:"Iowan Old Style","Charter","Palatino",Georgia,serif;
+  --ui:-apple-system,BlinkMacSystemFont,"Inter","Segoe UI",system-ui,sans-serif;
+
+  --pad:20px;
+  --top:env(safe-area-inset-top,0px);
+  --bot:env(safe-area-inset-bottom,0px);
+}
+
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html,body{margin:0;padding:0}
+body{
+  background:var(--paper);
+  color:var(--ink);
+  font-family:var(--ui);
+  font-size:16px;
+  line-height:1.5;
+  -webkit-text-size-adjust:100%;
+  overscroll-behavior-y:none;
+}
+button{font:inherit;color:inherit;background:none;border:0;padding:0;cursor:pointer}
+:focus-visible{outline:2px solid var(--blu);outline-offset:3px;border-radius:4px}
+
+.app{max-width:37rem;margin:0 auto;padding:0 var(--pad)}
+
+/* ---------- надписи-ярлыки ---------- */
+.eyebrow{
+  font-size:11px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;
+  color:var(--blu);
+}
+.muted{color:var(--fog)}
+
+/* ---------- шапка списка ---------- */
+.top{
+  display:flex;align-items:flex-start;justify-content:space-between;gap:24px;
+  padding-top:calc(var(--top) + 28px);padding-bottom:22px;
+}
+.top-title{font-family:var(--book);font-size:30px;line-height:1.1;letter-spacing:-.01em;margin:0}
+.top-sub{font-size:13px;color:var(--fog);margin:8px 0 0;max-width:19ch}
+.linkbtn{font-size:14px;color:var(--blu);font-weight:500;white-space:nowrap;padding:8px 0;flex:none}
+
+/* ---------- переключатель языка ---------- */
+.langs{display:flex;gap:8px;padding-bottom:26px}
+.lang{
+  flex:1;padding:11px 12px;border:1px solid var(--rule);border-radius:12px;
+  background:var(--card);font-size:14px;font-weight:500;color:var(--fog);
+  display:flex;align-items:center;justify-content:center;gap:8px;
+  transition:border-color .15s,color .15s;
+}
+.lang[aria-pressed="true"]{border-color:var(--blu);color:var(--ink);box-shadow:inset 0 0 0 1px var(--blu)}
+.lang .lvl{font-size:11px;font-weight:600;letter-spacing:.08em;color:var(--fog)}
+
+/* ---------- оглавление ---------- */
+.toc{margin:0 0 40px}
+.toc-item{
+  display:block;width:100%;text-align:left;
+  padding:18px 0;border-top:1px solid var(--rule);
+}
+.toc-item:last-child{border-bottom:1px solid var(--rule)}
+.toc-head{display:flex;align-items:baseline;gap:10px}
+.toc-title{font-family:var(--book);font-size:20px;line-height:1.25;letter-spacing:-.005em}
+.toc-leader{flex:1;border-bottom:1px dotted var(--rule);transform:translateY(-4px)}
+.toc-min{font-size:12px;color:var(--fog);font-variant-numeric:tabular-nums;white-space:nowrap}
+.toc-ru{font-size:14px;color:var(--fog);margin-top:4px}
+.toc-meta{display:flex;align-items:center;gap:10px;margin-top:12px}
+.bar{height:3px;flex:1;background:var(--rule);border-radius:2px;overflow:hidden}
+.bar i{display:block;height:100%;background:var(--blu);border-radius:2px;transition:width .4s ease}
+.toc-known{font-size:11px;color:var(--fog);font-variant-numeric:tabular-nums;white-space:nowrap}
+.toc-item[data-done="1"] .toc-title{color:var(--fog)}
+
+/* ---------- чтение ---------- */
+.reader-bar{
+  position:sticky;top:0;z-index:5;background:var(--paper);
+  padding-top:calc(var(--top) + 10px);padding-bottom:12px;
+  display:flex;align-items:center;justify-content:space-between;gap:12px;
+}
+.reader-bar::after{
+  content:"";position:absolute;left:calc(var(--pad) * -1);right:calc(var(--pad) * -1);bottom:0;
+  height:1px;background:var(--rule);
+}
+.back{font-size:15px;color:var(--blu);padding:10px 0;display:flex;align-items:center;gap:5px}
+.speak{
+  font-size:14px;color:var(--blu);padding:8px 14px;border:1px solid var(--blu-soft);
+  border-radius:999px;display:flex;align-items:center;gap:7px;
+}
+.speak[data-on="1"]{background:var(--blu);color:#fff;border-color:var(--blu)}
+
+.story{padding:30px 0 90px}
+.story-eyebrow{margin-bottom:12px}
+.story-title{font-family:var(--book);font-size:27px;line-height:1.2;margin:0 0 6px;letter-spacing:-.01em}
+.story-ru{font-size:14px;color:var(--fog);margin:0 0 30px}
+.story-body{font-family:var(--book);font-size:20px;line-height:1.78}
+.story-body p{margin:0 0 1.15em}
+
+.w{
+  border-radius:3px;padding:0 .5px;
+  transition:background-color .12s;
+}
+.w[data-saved="1"]{
+  background:linear-gradient(to top,var(--blu-wash) 0 .42em,transparent .42em);
+  box-shadow:inset 0 -1px 0 var(--blu-soft);
+}
+.w[data-active="1"]{background:var(--blu);color:#fff;box-shadow:none}
+
+.done-row{padding:8px 0 60px}
+.done-btn{
+  width:100%;padding:15px;border:1px solid var(--rule);border-radius:14px;background:var(--card);
+  font-size:15px;font-weight:500;
+}
+.done-btn[data-done="1"]{color:var(--fog)}
+
+/* ---------- карточка слова ---------- */
+.scrim{position:fixed;inset:0;background:rgba(22,21,15,.22);z-index:20;animation:fade .2s ease}
+@keyframes fade{from{opacity:0}}
+.sheet{
+  position:fixed;left:0;right:0;bottom:0;z-index:21;
+  background:var(--card);border-radius:20px 20px 0 0;
+  padding:22px var(--pad) calc(22px + var(--bot));
+  box-shadow:0 -8px 40px rgba(22,21,15,.13);
+  animation:rise .24s cubic-bezier(.22,.9,.3,1);
+  max-width:37rem;margin:0 auto;
+}
+@keyframes rise{from{transform:translateY(102%)}}
+.sheet-grip{width:36px;height:4px;background:var(--rule);border-radius:2px;margin:-8px auto 16px}
+.sheet-word{font-family:var(--book);font-size:26px;line-height:1.2;letter-spacing:-.01em}
+.sheet-tr{font-size:19px;margin-top:8px}
+.sheet-base{font-size:13px;color:var(--fog);margin-top:8px}
+.sheet-actions{display:flex;gap:10px;margin-top:20px}
+.act{
+  flex:1;padding:13px;border-radius:12px;border:1px solid var(--rule);
+  font-size:15px;font-weight:500;text-align:center;background:var(--paper);
+}
+.act.primary{background:var(--blu);border-color:var(--blu);color:#fff}
+.act.primary[data-saved="1"]{background:var(--blu-wash);border-color:var(--blu-soft);color:var(--blu)}
+.sheet-none{font-size:15px;color:var(--fog);margin-top:8px}
+
+/* ---------- мои слова ---------- */
+.words-group{margin-bottom:30px}
+.words-group h3{font-family:var(--book);font-size:17px;font-weight:500;margin:0 0 4px}
+.word-row{
+  display:flex;align-items:baseline;gap:10px;padding:12px 0;border-top:1px solid var(--rule);
+}
+.word-row:last-child{border-bottom:1px solid var(--rule)}
+.word-src{font-family:var(--book);font-size:17px}
+.word-tr{flex:1;font-size:15px;color:var(--fog)}
+.word-del{font-size:13px;color:var(--fog);padding:4px 2px}
+.empty{padding:60px 0;text-align:center;color:var(--fog);font-size:15px}
+.empty strong{display:block;font-family:var(--book);font-size:19px;color:var(--ink);font-weight:400;margin-bottom:8px}
+
+@media (prefers-reduced-motion:reduce){
+  *{animation-duration:.01ms !important;transition-duration:.01ms !important}
+}

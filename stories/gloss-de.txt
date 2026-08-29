@@ -1,0 +1,424 @@
+#de-1
+aber|но|союз
+also|значит, поэтому|наречие
+an|на, у (an der Ecke)|предлог
+anna|Анна|имя
+apfelstrudel|яблочный штрудель|der Apfelstrudel
+auch|тоже|наречие
+auf|приставка (steht auf — встаёт)|aufstehen
+besonderer|особенный|besonder-
+bitte|пожалуйста|наречие
+brot|хлеб|das Brot
+bäckerei|пекарня|die Bäckerei
+bäckerin|пекарь (женщина)|die Bäckerin
+dafür|за это|наречие
+danke|спасибо|наречие
+das|это; артикль ср. р.|das
+den|артикль м. р. (вин. п.)|der
+denkt|думает|denken — думать
+der|артикль м. р.|der
+die|артикль ж. р. и мн. ч.|die
+draußen|на улице|наречие
+ecke|угол|die Ecke
+ein|один; артикль|ein
+eine|одна; артикль ж. р.|eine
+einen|один (вин. п.)|ein
+es|это, оно|местоимение
+fenster|окно|das Fenster
+fragt|спрашивает|fragen — спрашивать
+frau|госпожа, женщина|die Frau
+freundlich|приветливая|прилагательное
+geburtstag|день рождения|der Geburtstag
+geht|идёт|gehen — идти
+geld|деньги|das Geld
+gibt|даёт|geben — давать
+große|большой|groß
+gut|хорошо|наречие
+guten|доброе (Guten Morgen)|gut
+habe|у меня есть|haben — иметь
+hat|имеет|haben
+hause|дом (nach Hause — домой)|das Haus
+heißt|зовут|heißen — зваться
+heute|сегодня|наречие
+huber|Хубер|фамилия
+ich|я|местоимение
+ihnen|Вам|Sie — Вы
+ihr|ей|sie
+immer|всегда (wie immer — как всегда)|наречие
+in|в|предлог
+ist|есть|sein — быть
+ja|да|частица
+kaffee|кофе|der Kaffee
+kalt|холодно|прилагательное
+kein|нет, ни одного|kein
+kennt|знает|kennen — знать
+klein|маленькая|прилагательное
+küche|кухня|die Küche
+lacht|смеётся|lachen — смеяться
+macht|делает, варит|machen — делать
+mehr|больше (kein … mehr)|наречие
+meine|моя|mein
+morgen|утро|der Morgen
+möchten|хотите|möchten — хотеть
+nach|в, к (nach Hause)|предлог
+nimmt|берёт|nehmen — брать
+noch|ещё|наречие
+sagt|говорит|sagen — говорить
+scheint|светит|scheinen — светить
+semmeln|булочки|die Semmel — булочка
+sie|она; Вы|sie
+sieben|семь|числительное
+sonne|солнце|die Sonne
+stadt|город|die Stadt
+steht|встаёт (steht auf)|aufstehen — вставать
+straße|улица|die Straße
+strudel|штрудель|der Strudel
+tag|день|der Tag
+uhr|час|die Uhr
+und|и|союз
+warm|тёплый|прилагательное
+wie|как|наречие
+wien|Вена|город
+zwei|два|числительное
+öffnet|открывает|öffnen — открывать
+
+#de-2
+am|у (am Fenster — у окна)|an + dem
+an|о (denkt an — думает о)|предлог
+angst|страх (Angst haben — бояться)|die Angst
+auf|на (auf dem Boden)|предлог
+bekommt|получает|bekommen — получать
+boden|пол|der Boden
+buch|книга|das Buch
+büro|офис|das Büro
+danke|спасибо|наречие
+dann|потом|наречие
+das|это; артикль ср. р.|das
+dem|артикль (дат. п.)|der / das
+denkt|думает|denken
+der|артикль м. р.|der
+die|артикль ж. р. и мн. ч.|die
+draußen|за окном|наречие
+du|ты|местоимение
+ein|один|ein
+einem|одному (дат. п.)|ein
+einen|один (вин. п.)|ein
+einer|одной (nach einer Stunde — через час)|ein
+entschuldigung|извините|die Entschuldigung
+er|он|местоимение
+es|это|местоимение
+felder|поля|das Feld — поле
+fenster|окно|das Fenster
+fragt|спрашивает|fragen
+fährt|едет|fahren — ехать
+geben|отдают|geben — давать
+gehen|идут|gehen — идти
+geht|идёт|gehen
+halb|половина (halb neun — полдевятого)|прилагательное
+hamburg|Гамбург|город
+handy|мобильный телефон|das Handy
+hat|имеет|haben
+heißt|зовут|heißen
+ihm|рядом с ним|er — он
+ihr|ваш (Ihr Handy)|Ihr
+ihre|её|ihr
+ihrer|её (zu ihrer Schwester)|ihr
+im|в (in + dem)|in + dem
+in|в|предлог
+interview|собеседование|das Interview
+ist|есть|sein — быть
+kleinen|маленький|klein
+koffer|чемодан|der Koffer
+kopfhörern|наушники|die Kopfhörer
+kühe|коровы|die Kuh — корова
+lena|Лена|имя
+liegt|лежит|liegen — лежать
+los|приставка (fährt los — трогается)|losfahren
+mit|с|предлог
+mädchen|девушка|das Mädchen
+nach|через, в|предлог
+neben|рядом с|предлог
+neun|девять|числительное
+nicht|не|частица
+nichts|ничего|местоимение
+nur|только|наречие
+platz|место|der Platz
+regnet|идёт дождь|regnen
+richtungen|стороны, направления|die Richtung
+roten|красных|rot — красный
+sagen|говорят|sagen
+sagt|говорит|sagen
+schaffner|проводник|der Schaffner
+schaffst|справишься|schaffen — справиться
+schwester|сестра|die Schwester
+sein|его|sein
+sie|она; они|sie
+sieht|видит|sehen — видеть
+sitzt|сидит|sitzen — сидеть
+sprechen|разговаривают|sprechen — говорить
+später|позже|spät — поздний
+stelle|место, работа|die Stelle
+stunde|час|die Stunde
+telefon|телефон|das Telefon
+tom|Том|имя
+toms|Тома|Tom
+tschüss|пока|прощание
+um|в (о времени)|предлог
+und|и|союз
+viele|много|viel
+weiter|дальше|наречие
+windräder|ветряки|das Windrad
+worte|слова|das Wort — слово
+zu|к|предлог
+zug|поезд|der Zug
+zwei|два|числительное
+
+#de-3
+abend|вечер|der Abend
+aber|но|союз
+achtzig|восемьдесят|числительное
+alt|старая|прилагательное
+alten|старый|alt
+am|в (am Samstag — в субботу)|an + dem
+auf|приставка (macht auf — открывает); на|aufmachen
+aus|из|предлог
+bett|кровать|das Bett
+bin|я есть|sein — быть
+brot|хлеб|das Brot
+da|тут (Wer ist da?)|наречие
+dem|артикль (дат. п.)|der / das
+der|артикль м. р.|der
+dezember|декабрь|der Dezember
+die|артикль ж. р.|die
+draußen|на улицу|наречие
+drei|три|числительное
+eine|одна|eine
+einen|одного (вин. п.)|ein
+er|он|местоимение
+erzählt|рассказывает|erzählen — рассказывать
+es|это|местоимение
+fragt|спрашивает|fragen
+frau|госпожа|die Frau
+freunde|друзья|der Freund — друг
+gehe|я иду|gehen
+gehen|ходим|gehen
+geht|идёт|gehen
+gestorben|умер|sterben — умирать
+hat|имеет|haben
+hund|собака|der Hund
+höre|я слышу|hören — слышать
+ich|я|местоимение
+ihre|её|ihr
+ihrem|её (von ihrem Mann)|ihr
+im|в (in + dem)|in + dem
+in|в|предлог
+ist|есть|sein — быть
+jahre|лет|das Jahr — год
+jahren|лет назад (vor zehn Jahren)|das Jahr
+jeden|каждый (jeden Abend)|jeder
+jetzt|теперь|наречие
+kalt|холодно|прилагательное
+kaufe|покупаю|kaufen — покупать
+keine|не, никакие|kein
+klingle|звоню в дверь|klingeln — звонить
+krank|больна|прилагательное
+leise|тихий|прилагательное
+macht|открывает (macht auf)|aufmachen
+mann|муж|der Mann
+medikamente|лекарства|das Medikament
+milch|молоко|die Milch
+mir|надо мной (über mir)|ich — я
+mit|с|предлог
+nach|наверх, наружу (nach oben)|предлог
+neben|рядом с|предлог
+nichts|ничего|местоимение
+oben|наверх|наречие
+oft|часто|наречие
+samstag|суббота|der Samstag
+schmidt|Шмидт|фамилия
+schritte|шаги|der Schritt — шаг
+sie|она|sie
+sieben|семь|числительное
+sind|мы есть|sein — быть
+sitzt|сидит|sitzen
+spazieren|гулять (spazieren gehen)|глагол
+stimme|голос|die Stimme
+stock|этаж|der Stock
+tag|день|der Tag
+tage|дня|der Tag
+tür|дверь|die Tür
+um|в (о времени)|предлог
+und|и|союз
+von|о, от|предлог
+vor|назад (vor zehn Jahren)|предлог
+warte|жду|warten — ждать
+wartet|ждёт|warten
+wer|кто|местоимение
+wir|мы|местоимение
+wohne|я живу|wohnen — жить
+wohnt|живёт|wohnen
+wohnung|квартира|die Wohnung
+zehn|десять|числительное
+zusammen|вместе|наречие
+zwei|два|числительное
+zweiten|втором|zweite
+über|над|предлог
+
+#de-4
+aber|но|союз
+altes|старое|alt — старый
+am|в (am Montagmorgen)|an + dem
+auf|на|предлог
+bus|автобус|der Bus
+dann|потом|наречие
+das|это; артикль ср. р.|das
+datum|дата|das Datum
+dem|артикль (дат. п.)|der / das
+den|артикль (вин. п.)|der
+der|артикль м. р.|der
+die|артикль ж. р.|die
+dieses|этот|dieser
+dreht|переворачивает (dreht um)|umdrehen
+dreitausend|три тысячи|числительное
+ein|один|ein
+eine|одна|eine
+einem|одним|ein
+er|он|местоимение
+es|это|местоимение
+euro|евро|der Euro
+findet|находит|finden — находить
+foto|фотография|das Foto
+geht|идёт|gehen
+gelben|жёлтыми|gelb — жёлтый
+gestorben|умерла|sterben — умирать
+großmutter|бабушка|die Großmutter
+haus|дом|das Haus
+hause|дома (zu Hause)|das Haus
+herr|господин|der Herr
+heute|сегодня|наречие
+hinter|за|предлог
+im|в (in + dem)|in + dem
+innen|внутри|наречие
+ist|есть|sein — быть
+jacke|куртка|die Jacke
+jahren|лет (vor zwanzig Jahren)|das Jahr
+juni|июнь|der Juni
+kennt|знает|kennen
+komm|приходи|kommen — приходить
+lange|долго|наречие
+liegt|лежит|liegen
+mit|с|предлог
+montagmorgen|утро понедельника|der Montagmorgen
+nimmt|берёт|nehmen
+noch|ещё|наречие
+polizei|полиция|die Polizei
+polizeistation|отделение полиции|die Polizeistation
+rote|красная|rot — красный
+rückseite|обратная сторона|die Rückseite
+schlüssel|ключ|der Schlüssel
+see|озеро|der See
+seine|его|sein
+seiner|его (Haus seiner Großmutter)|sein
+sie|она|sie
+sind|есть (мн. ч.)|sein
+sitz|сиденье|der Sitz
+sitzt|сидит|sitzen
+steht|стоит, изображён|stehen — стоять
+tasche|сумка|die Tasche
+tisch|стол|der Tisch
+tor|ворота|das Tor
+um|приставка (dreht um)|umdrehen
+und|и|союз
+unter|под|предлог
+verkauft|продан|verkaufen — продавать
+vor|назад|предлог
+weber|Вебер|фамилия
+wort|слово|das Wort
+zu|закрыто (ist zu); к|наречие
+zur|к (zu + der)|zu + der
+zwanzig|двадцать|числительное
+öffnet|открывает|öffnen
+
+#de-5
+aber|но|союз
+alt|старая|прилагательное
+auf|на|предлог
+aus|из (aus dem Fenster — в окно)|предлог
+bin|я есть|sein — быть
+bist|ты есть (du bist spät)|sein
+brief|письмо|der Brief
+bus|автобус|der Bus
+da|тут, на месте|наречие
+dann|тогда|наречие
+das|это; артикль ср. р.|das
+deine|твоя|dein
+dem|артикль (дат. п.)|der / das
+den|артикль (вин. п.)|der
+der|артикль м. р.|der
+die|артикль ж. р.|die
+draußen|на улице|наречие
+du|ты|местоимение
+dunkel|темно|прилагательное
+eine|одна|eine
+einen|один (вин. п.)|ein
+er|он|местоимение
+es|это (es wird dunkel — темнеет)|местоимение
+farbe|краска|die Farbe
+fenster|окно|das Fenster
+frau|женщина|die Frau
+fährt|едет|fahren — ехать
+gelb|жёлтый|прилагательное
+geld|деньги|das Geld
+gesagt|говорила|sagen — говорить
+hat|имеет|haben
+haus|дом|das Haus
+herr|господин|der Herr
+hände|руки|die Hand — рука
+ich|я|местоимение
+ihn|его (письмо)|er
+im|в (in + dem)|in + dem
+immer|всё ещё (immer noch)|наречие
+ist|есть|sein — быть
+jahr|год (aus dem Jahr)|das Jahr
+kalt|холодные|прилагательное
+keine|никакой|kein
+langsam|медленно|наречие
+legt|кладёт|legen — класть
+lies|прочти|lesen — читать
+mutter|мать|die Mutter
+nichts|ничего|местоимение
+nimmt|берёт|nehmen
+noch|ещё|наречие
+passt|подходит|passen — подходить
+ruhig|спокойно|прилагательное
+sagt|говорит|sagen
+schlüssel|ключ|der Schlüssel
+schwester|сестра|die Schwester
+sechzig|шестьдесят|числительное
+see|озеро|der See
+seine|его|sein
+seiner|его (von seiner Mutter)|sein
+setzt|садится (setzt sich)|sich setzen — садиться
+sich|себя|sich
+sie|она; Вы|sie
+sieht|смотрит|sehen — видеть
+sind|есть|sein
+sitzt|сидит|sitzen
+spät|поздно|прилагательное
+stuhl|стул|der Stuhl
+stunden|часа|die Stunde — час
+tasche|сумка|die Tasche
+tee|чай|der Tee
+tisch|стол|der Tisch
+tor|ворота|das Tor
+trinkt|пьёт|trinken — пить
+und|и|союз
+ungefähr|примерно|наречие
+verstehst|поймёшь|verstehen — понимать
+von|от|предлог
+weber|Вебер|фамилия
+wer|кто|местоимение
+wird|становится|werden
+wohnzimmer|гостиная|das Wohnzimmer
+zum|к (zu + dem)|zu + dem
+zwei|два|числительное

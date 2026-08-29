@@ -1,0 +1,531 @@
+#it-1
+accento|акцент, говор|l'accento — акцент
+al|в, у (a + il)|предлог a + артикль
+all|к, у (all'angolo — до угла)|a + l'
+alla|с, к (a + la)|a + la
+alle|в (о времени)|a + le
+alza|поднимает|alzare — поднимать
+anch|тоже (anch'io — я тоже)|anche
+ancora|ещё, пока|наречие
+angolo|угол|l'angolo — угол
+anni|лет, годы|l'anno — год
+apre|открывает|aprire — открывать
+arriva|доносится, доходит|arrivare — прибывать
+banco|стойка, прилавок|il banco
+bar|бар, кофейня|il bar
+barista|бариста|il barista
+bene|хорошо|наречие
+beve|пьёт|bere — пить
+c|вот, есть (c'è)|ci
+caffè|кофе|il caffè
+caldo|тёплый, горячий|прилагательное
+capelli|волосы|i capelli
+cappuccino|капучино|il cappuccino
+casa|дом|la casa
+chiama|зовут (si chiama)|chiamarsi — зваться
+chiede|спрашивает|chiedere — спрашивать
+città|город|la città
+con|с|предлог
+conosce|знает, знаком|conoscere — быть знакомым
+cornetto|круассан|il cornetto
+corti|короткие|corto — короткий
+cosa|вещь, штука|la cosa
+del|из, от (di + il)|di + il
+di|из, от|предлог
+dice|говорит|dire — говорить
+e|и|союз
+era|был, было|essere — быть
+esce|выходит|uscire — выходить
+fa|назад (anni fa)|fare
+finalmente|наконец|наречие
+finestre|окна|la finestra — окно
+fino|до (fino a)|предлог
+fuori|снаружи, на улице|наречие
+gino|Джино|имя
+giorno|день|il giorno
+gli|артикль мн. ч.|gli
+grandi|большие|grande — большой
+guarda|смотрит|guardare — смотреть
+ha|имеет, у неё есть|avere — иметь
+ho|я (ho rotto — я разбила)|avere
+i|артикль мн. ч. м. р.|i
+il|артикль м. р.|il
+in|в|предлог
+io|я|местоимение
+la|её; артикль ж. р.|la
+lavoro|работа|il lavoro
+le|артикль мн. ч. ж. р.; их|le
+lei|она|местоимение
+lui|он|местоимение
+ma|но|союз
+marmellata|джем|la marmellata
+marta|Марта|имя
+mattina|утро|la mattina
+meno|без (без четверти)|наречие
+molti|много, многие|molto
+nessuno|никто|местоимение
+niente|ничего|местоимение
+non|не|частица
+nuova|новая|nuovo — новый
+occhi|глаза|l'occhio — глаз
+odore|запах|l'odore
+oggi|сегодня|наречие
+ogni|каждый|прилагательное
+ordina|заказывает|ordinare — заказывать
+paga|платит|pagare — платить
+pane|хлеб|il pane
+panettiere|пекарь|il panettiere
+perfetto|идеальный|прилагательное
+però|но, однако|союз
+piattino|блюдце|il piattino
+piedi|ноги (in piedi — стоя)|il piede — нога
+poi|потом|наречие
+preoccupare|волноваться (non ti preoccupare)|preoccuparsi
+prepara|готовит|preparare — готовить
+primo|первый|прилагательное
+qualcosa|что-то|местоимение
+quarto|четверть|il quarto
+quasi|почти|наречие
+ragazza|девушка|la ragazza
+ricorda|вспоминает|ricordare — помнить
+risponde|отвечает|rispondere — отвечать
+rompe|разбивает|rompere — ломать
+rotto|разбила|rompere — ломать
+schiuma|пена|la schiuma
+sempre|всегда|наречие
+sette|семь|числительное
+si|себя (возвратная частица)|si
+solito|обычное, как всегда|il solito
+sorride|улыбается|sorridere — улыбаться
+stessa|та же|stesso — тот же
+strada|улица|la strada
+sud|юг|il sud
+suo|свой, её|притяжательное
+sveglia|просыпается|svegliarsi — просыпаться
+sì|да|наречие
+tazze|чашки|la tazza — чашка
+ti|тебя, тебе|местоимение
+troppa|слишком много|troppo
+trova|находит|trovare — находить
+un|один; артикль|un
+una|одна; артикль ж. р.|una
+va|идёт, едет|andare — идти
+vuota|пустая|vuoto — пустой
+è|есть, является|essere — быть
+
+#it-2
+a|в, к|предлог
+accanto|рядом (accanto a)|наречие
+al|у, к (a + il)|a + il
+amico|друг|l'amico
+anche|тоже, также|наречие
+anni|лет|l'anno — год
+anziano|пожилой|прилагательное
+basse|низкие|basso — низкий
+biglietto|билет|il biglietto
+binario|путь, платформа|il binario
+bologna|Болонья|город
+c|есть (c'è)|ci
+campagna|поля, сельская местность|la campagna
+campi|поля|il campo — поле
+case|дома|la casa — дом
+che|который, что|союз
+chiude|закрывает|chiudere — закрывать
+comincia|начинает|cominciare — начинать
+comprato|купил|comprare — покупать
+con|с|предлог
+corre|бежит|correre — бежать
+cucina|готовит|cucinare — готовить
+da|уже (da tre anni — три года)|предлог
+dal|с, от (da + il)|da + il
+delle|в (поезд в 9:10)|di + le
+di|из, от|предлог
+dice|говорит|dire — говорить
+dieci|десять|числительное
+domani|завтра|наречие
+dopo|после, спустя|предлог
+due|два|числительное
+e|и|союз
+fa|назад|fare
+figlia|дочь|la figlia
+finestrino|окно (в поезде)|il finestrino
+fiume|река|il fiume
+fuori|за окном|наречие
+gialli|жёлтые|giallo — жёлтый
+giornale|газета|il giornale
+glielo|ему это|gli + lo
+grande|большой|прилагательное
+ha|имеет|avere — иметь
+hanno|они (hanno viaggiato)|avere
+i|артикль мн. ч.|i
+il|артикль м. р.|il
+insieme|вместе|наречие
+la|артикль ж. р.|la
+legge|читает|leggere — читать
+lo|это, его|местоимение
+luca|Лука|имя
+lui|он|местоимение
+ma|но|союз
+mai|никогда|наречие
+male|плохо|наречие
+mese|месяц|il mese
+mezz|пол- (mezz'ora — полчаса)|mezzo — половина
+non|не|частица
+nove|девять|числительное
+ogni|каждый|прилагательное
+ora|час|l'ora
+ore|часа, часов|l'ora — час
+parlare|говорить|глагол
+parte|отправляется|partire — уезжать
+passa|проносится|passare — проходить
+per|чтобы, для|предлог
+perché|потому что|союз
+più|больше|наречие
+posto|место|il posto
+qualcuno|кто-то|местоимение
+racconta|рассказывает|raccontare
+rallenta|замедляется|rallentare
+ride|смеётся|ridere — смеяться
+risponde|отвечает|rispondere
+rumorosa|шумная|rumoroso — шумный
+salutano|прощаются|salutarsi — прощаться
+saranno|будут|essere — быть
+sette|семь|числительное
+si|друг друга; себя|si
+signore|синьор, мужчина|il signore
+so|я знаю|sapere — знать
+solo|только|наречие
+sono|есть, являются|essere — быть
+stazione|вокзал|la stazione
+stretto|узкий|прилагательное
+sua|его, своя|притяжательное
+suo|его, свой|притяжательное
+tanti|много, немало|tanto
+tre|три|числительное
+treno|поезд|il treno
+trova|находит|trovare — находить
+trovare|навестить (andare a trovare)|trovare
+un|один; артикль|un
+va|едет|andare — ехать
+valigia|чемодан|la valigia
+vede|видит|vedere — видеть
+vedere|видеть, повидать|глагол
+vedranno|увидятся|vedersi
+veloce|быстро|прилагательное
+viaggiato|ехали вместе|viaggiare — путешествовать
+vicino|рядом (vicino a)|наречие
+è|есть|essere — быть
+
+#it-3
+a|в, к|предлог
+abita|живёт|abitare — жить
+adesso|теперь, сейчас|наречие
+al|на, в (a + il)|a + il
+alla|в, к (a + la)|a + la
+amicizia|дружба|l'amicizia
+anni|лет|l'anno — год
+aperto|открыла|aprire — открывать
+ascensore|лифт|l'ascensore
+aveva|у неё был|avere — иметь
+borse|сумки|la borsa — сумка
+bussato|постучал|bussare — стучать
+carrello|тележка|il carrello
+casa|дом|la casa
+che|который|союз
+chi|кто|местоимение
+chiama|зовут|chiamarsi
+chiesto|спросил|chiedere — спрашивать
+ci|мы друг с другом|ci
+comprato|купил|comprare — покупать
+con|с|предлог
+conosco|я знаю|conoscere — знать
+debole|слабый|прилагательное
+del|с, из (di + il)|di + il
+di|из|предлог
+dieci|десять|числительное
+divano|диван|il divano
+domenica|воскресенье|la domenica
+dormiva|спал|dormire — спать
+due|два|числительное
+e|и|союз
+elena|Елена|имя
+fa|назад|fare
+faceva|было (faceva freddo)|fare
+fare|делать (fare la spesa)|глагол
+febbre|температура, жар|la febbre
+freddo|холодно, холод|il freddo
+funziona|работает|funzionare
+gatto|кот|il gatto
+giovedì|четверг|il giovedì
+grande|большая|прилагательное
+grigio|серый|прилагательное
+ha|имеет|avere
+ho|я (ho comprato)|avere
+i|артикль мн. ч.|i
+il|артикль м. р.|il
+in|в|предлог
+incontriamo|встречаемся|incontrarsi
+insieme|вместе|наречие
+io|я|местоимение
+l|её (l'ho vista)|la
+la|артикль ж. р.|la
+latte|молоко|il latte
+le|артикль мн. ч. ж. р.|le
+lei|она|местоимение
+lunedì|понедельник|il lunedì
+marito|муж|il marito
+medicine|лекарства|la medicina
+molto|много|наречие
+morto|покойный, умерший|morire — умирать
+nel|в (in + il)|in + il
+nemmeno|тоже не, даже не|наречие
+non|не|частица
+nostro|наш|притяжательное
+novembre|ноябрь|novembre
+o|или|союз
+ogni|каждый|прилагательное
+ottantadue|восемьдесят два|числительное
+palazzo|дом, здание|il palazzo
+pane|хлеб|il pane
+parla|говорит|parlare — говорить
+per|для, из-за|предлог
+persone|люди|la persona — человек
+pesanti|тяжёлые|pesante — тяжёлый
+piano|этаж|il piano
+poi|потом (prima o poi)|наречие
+porta|дверь|la porta
+porto|я несу|portare — нести
+prima|раньше (prima o poi)|наречие
+principe|Принц|кличка кота
+questo|это (per questo — поэтому)|местоимение
+quinto|пятый|числительное
+raramente|редко|наречие
+rosso|красный|прилагательное
+rotto|сломанный|rompere — ломать
+sabato|суббота|il sabato
+salgono|поднимаются|salire — подниматься
+scale|лестница|le scale
+scende|спускается|scendere — спускаться
+scendiamo|мы спускаемся|scendere
+secondo|второй|числительное
+si|себя|si
+signora|синьора|la signora
+solo|только|наречие
+sono|я, они (sono tornato)|essere — быть
+soprattutto|прежде всего|наречие
+spesa|покупки (fare la spesa)|la spesa
+spinge|катит, толкает|spingere — толкать
+sua|её|притяжательное
+sul|на (su + il)|su + il
+sulle|на (su + le)|su + le
+tornato|вернулся|tornare — возвращаться
+tranquillo|спокойный|прилагательное
+tutti|все|местоимение
+un|один; артикль|un
+una|одна|una
+venerdì|пятница|il venerdì
+vicini|соседи|il vicino — сосед
+vista|видела её|vedere — видеть
+voce|голос|la voce
+è|есть|essere — быть
+
+#it-4
+a|в, к (a lungo — долго)|предлог
+al|на, к (a + il)|a + il
+albergo|гостиница|l'albergo
+alle|в (о времени)|a + le
+ancora|всё ещё|наречие
+anna|Анна|имя
+anni|лет|l'anno — год
+aperta|открыто|aperto — открытый
+aveva|ей было|avere — иметь
+banca|банк|la banca
+biglietto|записка|il biglietto
+c|есть (c'è)|ci
+caduta|упала|cadere — падать
+cappotto|пальто|il cappotto
+centoquattordici|сто четырнадцать|числительное
+centro|центр|il centro
+che|что, который|союз
+chiamava|её звали|chiamarsi
+chiave|ключ|la chiave
+chiede|спрашивает|chiedere
+chiusa|закрытый|chiuso — закрытый
+commissario|комиссар|il commissario
+con|с|предлог
+cosa|что (di che cosa — от чего)|la cosa
+dalla|из (da + la)|da + la
+dell|от (dell'albergo)|di + l'
+della|от, у (di + la)|di + la
+destra|правый|прилагательное
+di|из, от|предлог
+dice|говорит|dire — говорить
+direttore|директор|il direttore
+disordine|беспорядок|il disordine
+domani|завтра|наречие
+donna|женщина|la donna
+dovrà|придётся, должен будет|dovere — быть должным
+e|и|союз
+finestra|окно|la finestra
+fuori|на улице|наречие
+guarda|смотрит|guardare
+il|артикль м. р.|il
+in|в|предлог
+la|артикль ж. р.; её|la
+lavorava|работала|lavorare — работать
+le|артикль мн. ч.|le
+letto|кровать|il letto
+lo|это (non lo sa)|местоимение
+lungo|долго (a lungo)|прилагательное
+ma|но|союз
+mani|руки|la mano — рука
+mette|кладёт|mettere — класть
+nella|в (in + la)|in + la
+non|не|частица
+numero|номер|il numero
+ottobre|октябрь|ottobre
+ottone|латунь|l'ottone
+pensa|думает|pensare — думать
+piano|этаж|il piano
+piccola|маленький|piccolo
+piove|идёт дождь|piovere
+poi|потом|наречие
+qualcuno|кто-то|местоимение
+quarant|сорок (quarant'anni)|quaranta
+questa|эта|questo — этот
+ricci|Риччи|фамилия
+riceve|получает|ricevere — получать
+sa|знает|sapere — знать
+sangue|кровь|il sangue
+scende|спускается|scendere
+sedia|стул|la sedia
+sera|вечер|la sera
+si|себя|si
+spiegare|объяснить|глагол
+stanza|номер, комната|la stanza
+strada|улица|la strada
+sua|свой|притяжательное
+sue|его (руки)|притяжательное
+sul|на (su + il)|su + il
+sulla|на (su + la)|su + la
+tasca|карман|la tasca
+telefonata|звонок|la telefonata
+terzo|третий|числительное
+tre|три|числительное
+tremano|дрожат|tremare — дрожать
+trova|находит|trovare
+un|один|un
+una|одна|una
+undici|одиннадцать|числительное
+valigia|чемодан|la valigia
+vede|видит|vedere — видеть
+vitali|Витали|фамилия
+è|есть|essere — быть
+
+#it-5
+a|до, к|предлог
+adesso|теперь|наречие
+albergo|гостиница|l'albergo
+alla|на (a + la)|a + la
+alle|в (о времени)|a + le
+anna|Анна|имя
+armadietti|шкафчики|l'armadietto — шкафчик
+armadietto|шкафчик|l'armadietto
+arrivano|доходят|arrivare
+aspettando|ждала|aspettare — ждать
+banca|банк|la banca
+basta|хватит, довольно|bastare
+biglietto|билет|il biglietto
+busta|конверт|la busta
+c|есть (c'è)|ci
+cameriera|горничная|la cameriera
+capisce|понимает|capire — понимать
+caso|дело|il caso
+centoventi|сто двадцать|числительное
+che|что, который|союз
+chiave|ключ|la chiave
+chiude|закрывает|chiudere
+chiusa|закрыт|chiuso
+ci|там (ci sono — есть)|ci
+clienti|клиенты|il cliente — клиент
+collega|коллега|il collega
+con|с|предлог
+data|дата|la data
+date|даты|la data — дата
+della|из (di + la)|di + la
+dentro|внутри|наречие
+detto|сказал|dire — говорить
+di|из, от|предлог
+dietro|за, позади|предлог
+difficoltà|труд, сложность|la difficoltà
+direttore|директор|il direttore
+dodicimila|двенадцать тысяч|числительное
+dopo|потом (la mattina dopo)|наречие
+dove|где|наречие
+due|два|числительное
+e|и|союз
+era|был|essere — быть
+euro|евро|l'euro
+fermato|задержали|fermare — задержать
+finalmente|наконец|наречие
+finito|закончено|finire — заканчивать
+fino|до (fino a)|предлог
+fondo|глубина (in fondo — в глубине)|il fondo
+gialla|жёлтый|giallo
+gira|поворачивается|girare — поворачивать
+ha|вспомогательный глагол|avere
+hanno|они|avere
+i|артикль мн. ч.|i
+ieri|вчера|наречие
+il|артикль м. р.|il
+in|в|предлог
+inizio|начало|l'inizio
+invece|зато, наоборот|наречие
+l|артикль перед гласной|lo
+la|артикль ж. р.|la
+lavorava|работала|lavorare
+le|артикль мн. ч.|le
+ma|но|союз
+malato|болен|прилагательное
+mattina|утро|la mattina
+nel|в (in + il)|in + il
+nero|чёрный|прилагательное
+nizza|Ницца|город
+nomi|имена|il nome — имя
+non|не|частица
+numeri|номера|il numero — номер
+pagina|страница|la pagina
+parla|говорит|parlare
+parola|слово|la parola
+partendo|уезжала|partire — уезжать
+per|в, для|предлог
+perché|почему|союз
+personale|персонал|il personale
+piccolo|маленький|прилагательное
+quaderno|блокнот|il quaderno
+qualcuno|кого-то|местоимение
+racconta|рассказывает|raccontare
+ricci|Риччи|фамилия
+riconosce|узнаёт|riconoscere — узнавать
+scale|лестница|le scale
+sei|шесть|числительное
+seminterrato|подвал|il seminterrato
+senza|без|предлог
+sola|одно|solo — один
+sono|есть (мн. ч.)|essere — быть
+stava|собиралась|stare
+stazione|вокзал|la stazione
+sull|на (sull'ultima)|su + l'
+suo|его|притяжательное
+suona|звонит|suonare — звонить
+telefonato|позвонил|telefonare — звонить
+telefono|телефон|il telefono
+torna|возвращается|tornare — возвращаться
+ultima|последняя|ultimo — последний
+un|один|un
+una|одна|una
+valigia|чемодан|la valigia
+vecchi|старые|vecchio — старый
+vestiti|одежда|il vestito — вещь
+volentieri|охотно|наречие
+è|есть|essere — быть
