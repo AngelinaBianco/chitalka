@@ -1,0 +1,214 @@
+#common-de
+absender|обратный адрес|der Absender
+adresse|адрес|die Adresse
+alle|все|alle
+alles|всё|местоимение
+als|когда; как|союз
+alter|пожилой|alt — старый
+anders|иначе, по-другому|наречие
+anfang|начало (am Anfang — сначала)|der Anfang
+angefangen|начался|anfangen — начинать
+angerufen|позвонил|anrufen — звонить
+antworten|ответить|глагол
+antwortet|отвечает|antworten — отвечать
+apotheke|аптека|die Apotheke
+aprikosen|абрикосы|die Aprikose — абрикос
+arbeit|работа|die Arbeit
+arbeitet|работает|arbeiten — работать
+aufgelegt|положил трубку|auflegen
+aufgemacht|открыл|aufmachen — открывать
+aufgestanden|встала|aufstehen — вставать
+beantwortet|ответил на|beantworten — отвечать
+beide|оба|местоимение
+beim|по (beim Namen — по имени)|bei + dem
+bekommen|получить; родить|глагол
+besser|лучше|gut — хороший
+besten|лучшие|gut — хороший
+bleibt|остаётся (bleibt stehen — останавливается)|bleiben — оставаться
+blume|цветок|die Blume
+blumenstand|цветочный прилавок|der Blumenstand
+briefe|письма|der Brief — письмо
+bringen|принести|глагол
+bruder|брат|der Bruder
+bruders|брата|der Bruder — брат
+daran|к этому (gewöhnt sich daran)|наречие
+darin|внутри|наречие
+dass|что|союз
+derselben|той же|derselbe — тот же
+deutsch|немецкий|das Deutsch
+dich|тебя|du — ты
+dienstag|вторник|der Dienstag
+diese|эти|dieser — этот
+dieser|этот|dieser
+diesmal|на этот раз|наречие
+dir|тебе|du — ты
+doch|всё-таки|частица
+donnerstag|четверг|der Donnerstag
+dort|там|наречие
+dreimal|трижды|наречие
+dreißig|тридцать|числительное
+eingeschenkt|налила|einschenken — наливать
+eingeschlafen|заснул|einschlafen — засыпать
+elf|одиннадцать|числительное
+eltern|родители|die Eltern
+entschieden|решили|entscheiden — решать
+erkannt|узнал|erkennen — узнавать
+erst|всего (erst seit — всего лишь)|наречие
+erwähnt|упомянул|erwähnen — упоминать
+etwas|что-то|местоимение
+familie|семья|die Familie
+fast|почти|наречие
+flur|коридор|der Flur
+frage|вопрос|die Frage
+frei|выходной (frei haben)|прилагательное
+fünf|пять|числительное
+für|для|предлог
+gebeten|просил (um … gebeten)|bitten — просить
+geblieben|остался (stehen geblieben)|bleiben — оставаться
+gedanke|мысль|der Gedanke
+gefahren|поехал|fahren — ехать
+gefragt|спросил|fragen — спрашивать
+gefunden|нашёл|finden — находить
+gegangen|ушёл|gehen — идти
+gehabt|(Glück gehabt — повезло)|haben — иметь
+geholt|принесла|holen — приносить
+gehört|принадлежит|gehören — принадлежать
+gelegt|положил|legen — класть
+gelesen|прочитал|lesen — читать
+geräusche|звуки|das Geräusch — звук
+geschaut|смотрел|schauen — смотреть
+geschickt|отправил|schicken — посылать
+geschlafen|спала|schlafen — спать
+geschrieben|написала|schreiben — писать
+gesessen|сидели|sitzen — сидеть
+gesprochen|говорили|sprechen — говорить
+gestellt|поставил|stellen — ставить
+getraut|решился (sich trauen)|sich trauen — решаться
+gewartet|ждала|warten — ждать
+gewusst|знал|wissen — знать
+gewöhnt|привыкает (gewöhnt sich)|sich gewöhnen — привыкать
+gezeigt|показала|zeigen — показывать
+geöffnet|открыл|öffnen — открывать
+glück|удача|das Glück
+größer|больше|groß — большой
+haben|иметь; вспомогательный глагол|haben
+handschrift|почерк|die Handschrift
+hast|ты (du hast)|haben — иметь
+hatte|было, имел|haben — иметь
+heller|светлее|hell — светлый
+hieß|звали|heißen — зваться
+himmel|небо|der Himmel
+husten|кашель|das Husten
+hätte|(hätte Glück gehabt — повезло бы)|haben — иметь
+jeder|каждый|jeder
+jemand|кто-то|местоимение
+julia|Юлия|имя
+jung|молодая|прилагательное
+kam|пришло|kommen — приходить
+kamen|вернулись|kommen — приходить
+kann|может|können — мочь
+kauft|покупает|kaufen — покупать
+kind|ребёнок|das Kind
+kino|кинотеатр|das Kino
+klaus|Клаус|имя
+kleine|маленькие|klein — маленький
+klingel|звонок|die Klingel
+konnte|могла|können — мочь
+kontrollieren|проверить|глагол
+kopf|голова|der Kopf
+krankenhaus|больница|das Krankenhaus
+krankenschwester|медсестра|die Krankenschwester
+kuchen|пирог|der Kuchen
+kurz|короткое|прилагательное
+käme|приходил бы|kommen — приходить
+körper|тело|der Körper
+küchentisch|кухонный стол|der Küchentisch
+lagen|лежали|liegen — лежать
+lang|долгим|lang — длинный
+läuft|идёт (wie die Arbeit läuft)|laufen — идти
+man|(so etwas erzählt man nicht — такое не рассказывают)|местоимение
+manchmal|иногда|наречие
+markt|рынок|der Markt
+markus|Маркус|имя
+meistens|чаще всего|наречие
+menschen|люди|der Mensch — человек
+merkt|замечает|merken — замечать
+minuten|минут|die Minute — минута
+mitgebracht|принёс|mitbringen — приносить
+monaten|месяцев|der Monat — месяц
+morgens|утром|наречие
+muss|должна|müssen — быть должным
+musste|пришлось|müssen — быть должным
+nacht|ночь|die Nacht
+nachts|ночью|наречие
+name|имя|der Name
+namen|имени (beim Namen)|der Name — имя
+nie|никогда|наречие
+ob|(als ob — как будто)|союз
+obst|фрукты|das Obst
+obststand|фруктовый прилавок|der Obststand
+obwohl|хотя|союз
+ohne|без|предлог
+personen|человек (für drei Personen — на троих)|die Person — человек
+rechnung|счёт|die Rechnung
+rechnungen|счета|die Rechnung — счёт
+recht|правота (hatte recht — была права)|das Recht
+regnen|идти (о дожде)|глагол
+renate|Ренате|имя
+ruft|зовёт|rufen — звать
+schachtel|коробка|die Schachtel
+schlafen|спать|глагол
+schon|уже|наречие
+schrift|почерк|die Schrift
+schwer|тяжело|прилагательное
+schweren|тяжёлыми|schwer — тяжёлый
+sechs|шесть|числительное
+seines|его|sein — его
+seit|с, уже (seit vier Jahren — четыре года)|предлог
+seite|сторона (zur Seite legen — откладывать)|die Seite
+siebzehn|семнадцать|числительное
+so|так|наречие
+sofia|София|имя
+sofort|сразу|наречие
+solche|такие|solcher — такой
+soll|должен|sollen — быть должным
+sondern|а (не …, а …)|союз
+sonntag|воскресенье|der Sonntag
+stand|стоял|stehen — стоять
+standen|стояли|stehen — стоять
+stehen|стоять|глагол
+still|тихо|прилагательное
+strauß|букет|der Strauß
+supermarkt|супермаркет|der Supermarkt
+tante|тётя|die Tante
+taschen|сумки|die Tasche — сумка
+teures|дорогое|teuer — дорогой
+tomaten|помидоры|die Tomate — помидор
+umschlag|конверт|der Umschlag
+umschläge|конверты|der Umschlag — конверт
+verstanden|понял|verstehen — понимать
+vier|четыре|числительное
+wagen|тележка|der Wagen
+war|был|sein — быть
+warst|ты был|sein — быть
+warum|почему|наречие
+was|что|местоимение
+wasser|вода|das Wasser
+weggeben|отдать|глагол
+weil|потому что|союз
+weiß|знает|wissen — знать
+wenige|немногие|wenig — мало
+wenn|когда, если|союз
+wieder|снова|наречие
+will|хочет|wollen — хотеть
+wirklich|правда, действительно|наречие
+wohnte|жила|wohnen — жить
+wovor|чего (Angst wovor — чего боялся)|наречие
+wörter|слова|das Wort — слово
+zeit|время|die Zeit
+zimmer|палата, комната|das Zimmer
+zurück|обратно|наречие
+zurückgeschickt|отправил обратно|zurückschicken — отправлять обратно
+zweimal|дважды|наречие
+ähnlich|похож (sieht dir ähnlich)|прилагательное
+übrig|осталось|наречие

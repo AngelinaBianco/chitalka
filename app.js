@@ -23,6 +23,7 @@
   var words = load('read.words', {});     // "it:acqua" -> {lang, form, tr, base, story}
   var progress = load('read.progress', {}); // storyId -> {pos: 0..1, done: bool}
   var lang = load('read.lang', 'it');
+  var step = load('read.step', 1);
 
   function wordKey(l, form) { return l + ':' + form.toLowerCase(); }
   function storyProgress(id) { return progress[id] || { pos: 0, done: false }; }
@@ -41,8 +42,14 @@
     if (b === 1) return one;
     return many;
   }
-  function storiesOf(l) {
-    return (window.STORIES || []).filter(function (s) { return s.lang === l; });
+  function storiesOf(l, st) {
+    return (window.STORIES || []).filter(function (s) {
+      return s.lang === l && (st == null || s.step === st);
+    });
+  }
+  function levelOf(l, st) {
+    var list = storiesOf(l, st);
+    return list.length ? list[0].level : '';
   }
   function savedInStory(s) {
     var n = 0;
@@ -211,15 +218,25 @@
       var b = el('button', 'lang');
       b.setAttribute('aria-pressed', l === lang ? 'true' : 'false');
       b.appendChild(el('span', null, LANGS[l].flag + '  ' + LANGS[l].name));
-      var lv = storiesOf(l)[0];
-      if (lv) b.appendChild(el('span', 'lvl', lv.level));
       b.addEventListener('click', function () { lang = l; save('read.lang', l); viewList(); });
       langs.appendChild(b);
     });
     app.appendChild(langs);
 
+    var steps = el('div', 'langs steps');
+    [1, 2].forEach(function (st) {
+      var b = el('button', 'lang');
+      b.setAttribute('aria-pressed', st === step ? 'true' : 'false');
+      b.appendChild(el('span', null, 'Ступень ' + st));
+      var lv = levelOf(lang, st);
+      if (lv) b.appendChild(el('span', 'lvl', lv));
+      b.addEventListener('click', function () { step = st; save('read.step', st); viewList(); });
+      steps.appendChild(b);
+    });
+    app.appendChild(steps);
+
     var toc = el('div', 'toc');
-    storiesOf(lang).forEach(function (s) {
+    storiesOf(lang, step).forEach(function (s) {
       var p = storyProgress(s.id);
       var item = el('button', 'toc-item');
       item.setAttribute('data-done', p.done ? '1' : '0');

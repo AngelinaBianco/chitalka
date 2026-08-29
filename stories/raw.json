@@ -13,7 +13,8 @@
    "«Non ti preoccupare», dice Marta. «Anch’io ho rotto qualcosa il primo giorno.»",
    "La ragazza alza gli occhi e finalmente sorride. Poi prepara il cappuccino con troppa schiuma, ma nessuno dice niente.",
    "Fuori la città si sveglia. Marta beve in piedi, paga e va al lavoro. Il caffè non era perfetto, ma la mattina sì."
-  ]
+  ],
+  "step": 1
  },
  {
   "id": "it-2",
@@ -30,7 +31,8 @@
    "«Tre anni sono tanti», dice il signore.",
    "«Lo so», risponde Luca. «Ma domani non saranno più tre.»",
    "Il treno rallenta. La stazione di Bologna è grande e rumorosa. I due si salutano e non si vedranno mai più, ma per due ore hanno viaggiato insieme."
-  ]
+  ],
+  "step": 1
  },
  {
   "id": "it-3",
@@ -49,7 +51,8 @@
    "Ho comprato il latte, il pane e le medicine. Sono tornato la domenica, e poi il lunedì.",
    "Adesso ogni giovedì scendiamo insieme. Lei spinge il carrello, io porto le borse pesanti. Parla molto, soprattutto del marito morto dieci anni fa.",
    "Non è una grande amicizia. È solo un ascensore rotto e due persone che salgono le scale."
-  ]
+  ],
+  "step": 1
  },
  {
   "id": "it-4",
@@ -66,7 +69,8 @@
    "«Di che cosa è questa chiave?» chiede al direttore dell’albergo.",
    "Il direttore la guarda a lungo. Poi dice che non lo sa. Ma Ricci vede le sue mani: tremano.",
    "Fuori piove. Ricci mette la chiave nella sua tasca e scende in strada. Domani, pensa, qualcuno dovrà spiegare il numero centoquattordici."
-  ]
+  ],
+  "step": 1
  },
  {
   "id": "it-5",
@@ -84,7 +88,8 @@
    "Adesso capisce perché la valigia era chiusa. Anna non stava partendo. Stava aspettando qualcuno.",
    "Il telefono suona. È il suo collega: hanno fermato il direttore alla stazione, con un biglietto per Nizza.",
    "Ricci chiude il quaderno. Il caso non è finito, ma finalmente ha un inizio."
-  ]
+  ],
+  "step": 1
  },
  {
   "id": "de-1",
@@ -104,7 +109,8 @@
    "«Ja», sagt Anna. «Heute habe ich Geburtstag.»",
    "Frau Huber gibt ihr den Strudel und nimmt kein Geld dafür.",
    "Anna geht nach Hause. Der Strudel ist noch warm. Sie denkt: Wien ist eine große Stadt, aber meine Straße ist klein und freundlich."
-  ]
+  ],
+  "step": 1
  },
  {
   "id": "de-2",
@@ -124,7 +130,8 @@
    "«Du schaffst das», sagt Lena.",
    "In Hamburg regnet es. Sie sagen «Tschüss» und gehen in zwei Richtungen.",
    "Später, im Büro, denkt Tom an ihre Worte. Und dann bekommt er die Stelle."
-  ]
+  ],
+  "step": 1
  },
  {
   "id": "de-3",
@@ -144,7 +151,8 @@
    "Ich kaufe Brot, Milch und Medikamente. Der Hund sitzt neben dem Bett und wartet.",
    "Jetzt gehen wir oft zusammen spazieren. Sie erzählt von ihrem Mann. Er ist vor zehn Jahren gestorben.",
    "Wir sind keine Freunde. Aber am Abend um sieben warte ich auf ihre Schritte."
-  ]
+  ],
+  "step": 1
  },
  {
   "id": "de-4",
@@ -162,7 +170,8 @@
    "Er dreht das Foto um. Auf der Rückseite steht ein Datum: 14. Juni. Und ein Wort: «komm».",
    "Heute ist der 14. Juni.",
    "Herr Weber sitzt lange am Tisch. Dann nimmt er seine Jacke und den Schlüssel."
-  ]
+  ],
+  "step": 1
  },
  {
   "id": "de-5",
@@ -183,6 +192,209 @@
    "Die Frau legt einen Brief auf den Tisch. Der Brief ist von seiner Mutter, aus dem Jahr 1998.",
    "«Lies ihn», sagt sie. «Dann verstehst du das Geld. Und die Tasche im Bus.»",
    "Draußen wird es dunkel. Herr Weber nimmt den Brief. Seine Hände sind kalt."
+  ],
+  "step": 1
+ },
+ {
+  "id": "it-6",
+  "lang": "it",
+  "level": "B1",
+  "step": 2,
+  "minutes": 4,
+  "title": "Il mercato di sabato",
+  "titleRu": "Субботний рынок",
+  "paragraphs": [
+   "Ogni sabato mattina la piazza si trasforma. I banchi appaiono prima dell’alba, e alle otto il mercato è già pieno di gente che discute sul prezzo dei pomodori.",
+   "Sofia ci viene da quando si è trasferita in città, tre anni fa. All’inizio non conosceva nessuno e comprava in silenzio, indicando le cose con il dito. Adesso il fruttivendolo le mette da parte le albicocche migliori e le chiede come va il lavoro.",
+   "«Sei arrivata tardi oggi», dice lui, mentre riempie il sacchetto.",
+   "«Ho dormito troppo», risponde Sofia. «È la prima settimana che non lavoro di domenica.»",
+   "Il mercato è l’unico posto dove Sofia parla con gli sconosciuti senza fatica. Forse perché qui nessuno ha fretta di sapere chi sei: basta che tu sappia scegliere un melone maturo.",
+   "Prima di tornare a casa si ferma sempre al banco dei fiori. Non compra mai niente di costoso, solo un mazzo piccolo, che sulla tavola dura una settimana.",
+   "La signora dei fiori ormai la conosce e a volte le regala un ramo in più. «Per la finestra», dice.",
+   "Sofia ringrazia e attraversa la piazza con le buste pesanti. Pensa che una città diventa tua quando qualcuno, in mezzo alla folla, ti chiama per nome."
+  ]
+ },
+ {
+  "id": "it-7",
+  "lang": "it",
+  "level": "B1",
+  "step": 2,
+  "minutes": 4,
+  "title": "La lettera che nessuno aspettava",
+  "titleRu": "Письмо, которого никто не ждал",
+  "paragraphs": [
+   "La lettera arrivò di martedì, in una busta grigia senza mittente. Marco la lasciò sul tavolo per due giorni, perché sapeva riconoscere le buste che portano guai.",
+   "Quando finalmente l’aprì, dentro non c’era una bolletta, ma una fotografia: sua madre da giovane, davanti a un cinema che ormai non esiste più. Sul retro, una data e tre parole scritte a matita: «Ti somiglia molto».",
+   "Marco non capiva chi gliel’avesse mandata. Sua madre era morta da sei anni e i parenti rimasti si contavano su una mano.",
+   "Passò la settimana a guardare quella faccia. Aveva la stessa fronte, lo stesso modo di stringere gli occhi quando c’è troppo sole.",
+   "Il sabato telefonò all’unica zia rimasta. Parlarono di sciocchezze per venti minuti, poi lui nominò la fotografia.",
+   "Ci fu un silenzio lungo. «Allora l’ha spedita davvero», disse la zia.",
+   "«Chi?»",
+   "«Qualcuno che tua madre ha aspettato per trent’anni. Vieni domenica: è meglio che certe cose te le racconti guardandoti in faccia.»",
+   "Marco riattaccò e rimase in piedi vicino alla finestra, con la fotografia in mano, mentre fuori cominciava a piovere."
+  ]
+ },
+ {
+  "id": "it-8",
+  "lang": "it",
+  "level": "B1",
+  "step": 2,
+  "minutes": 4,
+  "title": "Il turno di notte",
+  "titleRu": "Ночная смена",
+  "paragraphs": [
+   "L’ospedale di notte non è silenzioso come credono quelli che non ci lavorano. È pieno di rumori piccoli: le ruote di un carrello, un campanello, una tosse in fondo al corridoio.",
+   "Giulia fa il turno di notte da quattro anni. Dice che si abitua il corpo, ma non la testa. Alle tre di mattina il tempo si allunga e ogni pensiero diventa più grande di quello che è.",
+   "Stanotte nella stanza sette c’è un uomo di ottant’anni che non riesce a dormire. Ha chiesto un bicchiere d’acqua tre volte, ma Giulia ha capito che non è l’acqua che vuole.",
+   "Si siede vicino al letto per cinque minuti, anche se sa che avrebbe dovuto controllare altre due stanze.",
+   "«Mia moglie faceva l’infermiera», dice l’uomo. «Diceva sempre che di notte i malati hanno più paura.»",
+   "«Aveva ragione», risponde Giulia.",
+   "Restano zitti. Fuori dalla finestra il cielo comincia appena a schiarirsi.",
+   "Quando Giulia esce, l’uomo si è addormentato. Lei scrive due righe nel registro e va a preparare i carrelli per il mattino.",
+   "Alle sette, mentre torna a casa in autobus, si accorge di non ricordare quasi niente della notte. Solo quei cinque minuti."
+  ]
+ },
+ {
+  "id": "it-9",
+  "lang": "it",
+  "level": "B1",
+  "step": 2,
+  "minutes": 4,
+  "title": "La chiave nella tasca · parte terza",
+  "titleRu": "Ключ в кармане. Часть третья",
+  "paragraphs": [
+   "Il direttore dell’albergo si chiamava Renzo Fabbri e non aveva nessuna intenzione di parlare.",
+   "«Il biglietto per Nizza non significa niente», ripeteva. «Avevo un viaggio prenotato da settimane.»",
+   "Ricci gli mise davanti il quaderno nero. «E questo? Qui ci sono quattro nomi. Tre sono clienti della banca dove lavorava Anna Vitali. Il quarto è il suo.»",
+   "Fabbri guardò la pagina come se fosse la prima volta che la vedeva. Poi chiese un bicchiere d’acqua, e Ricci capì di aver toccato il punto giusto.",
+   "La storia che venne fuori nelle due ore successive era più vecchia dell’albergo. Anna aveva scoperto che alcuni conti servivano a far passare denaro che non apparteneva ai titolari. Aveva raccolto date, cifre, firme. Aveva aspettato.",
+   "«Voleva denunciare tutto», disse Fabbri. «Le ho detto che era pericoloso.»",
+   "«E poi?»",
+   "«E poi niente. Le ho dato una stanza e un armadietto, perché non si fidava più della sua casa.»",
+   "Ricci lo lasciò parlare fino in fondo. Ma continuava a pensare a una cosa che non tornava: se Anna quella sera aspettava qualcuno, quel qualcuno era arrivato prima di lui."
+  ]
+ },
+ {
+  "id": "it-10",
+  "lang": "it",
+  "level": "B1",
+  "step": 2,
+  "minutes": 4,
+  "title": "La chiave nella tasca · parte quarta",
+  "titleRu": "Ключ в кармане. Часть четвёртая",
+  "paragraphs": [
+   "Il portiere di notte aveva una memoria migliore di quanto volesse ammettere.",
+   "«Sì, verso le dieci è salita una persona», disse alla fine. «Non ha chiesto il numero della stanza. Sapeva dove andare.»",
+   "Ricci fece un elenco di chi poteva saperlo: Fabbri, la cameriera e i tre nomi sul quaderno. Poi aggiunse un quarto nome, che in quattro giorni nessuno aveva pronunciato: la sorella di Anna.",
+   "Si chiamava Chiara e viveva a venti minuti dal centro. Aprì la porta in vestaglia, con l’aria di chi non dorme da parecchio.",
+   "«Sapevo che sarebbe venuto», disse.",
+   "Sul tavolo della cucina c’erano due tazze, non una.",
+   "Chiara raccontò che quella sera era andata a convincere la sorella a fermarsi. Che avevano litigato. Che se n’era andata sbattendo la porta e che Anna era ancora viva quando l’ascensore si era chiuso.",
+   "«Le credo», disse Ricci, e in parte era vero.",
+   "Mentre scendeva le scale, pensò che la finestra della 302 era troppo alta perché una donna ci cadesse per sbaglio, e troppo stretta perché qualcuno ce la spingesse senza lasciare un segno.",
+   "Restava una terza possibilità, e non gli piaceva affatto."
+  ]
+ },
+ {
+  "id": "de-6",
+  "lang": "de",
+  "level": "A2",
+  "step": 2,
+  "minutes": 3,
+  "title": "Der Markt am Samstag",
+  "titleRu": "Рынок по субботам",
+  "paragraphs": [
+   "Jeden Samstag steht Sofia um sieben Uhr auf, obwohl sie frei hat. Sie geht auf den Markt, weil das Obst dort besser ist als im Supermarkt.",
+   "Am Anfang war es schwer. Sie wohnte erst seit drei Monaten in dieser Stadt und konnte nicht gut Deutsch. Sie hat auf die Tomaten gezeigt und «bitte» gesagt, mehr nicht.",
+   "Heute ist es anders. Der Mann am Obststand legt ihr die besten Aprikosen zur Seite und fragt, wie die Arbeit läuft.",
+   "«Du bist heute spät», sagt er.",
+   "«Ich habe zu lange geschlafen», antwortet Sofia und lacht.",
+   "Am Blumenstand bleibt sie immer stehen. Sie kauft nie etwas Teures, nur einen kleinen Strauß für den Küchentisch.",
+   "Die Frau kennt sie schon und gibt ihr manchmal eine Blume mehr. «Für das Fenster», sagt sie dann.",
+   "Sofia geht mit schweren Taschen über den Platz nach Hause. Sie denkt: Eine Stadt gehört dir erst, wenn dich jemand auf der Straße beim Namen ruft."
+  ]
+ },
+ {
+  "id": "de-7",
+  "lang": "de",
+  "level": "A2",
+  "step": 2,
+  "minutes": 3,
+  "title": "Der Brief ohne Absender",
+  "titleRu": "Письмо без обратного адреса",
+  "paragraphs": [
+   "Der Brief kam an einem Dienstag. Auf dem Umschlag stand kein Absender, nur der Name von Markus.",
+   "Er hat ihn zwei Tage nicht geöffnet, weil er solche Briefe kennt. Meistens sind es Rechnungen.",
+   "Am Donnerstag hat er ihn doch aufgemacht. Innen war keine Rechnung, sondern ein Foto: seine Mutter, jung, vor einem Kino, das es heute nicht mehr gibt. Auf der Rückseite standen ein Datum und drei Wörter: «Er sieht dir ähnlich».",
+   "Markus hat nicht verstanden, wer das geschickt hat. Seine Mutter ist vor sechs Jahren gestorben, und von der Familie sind nur wenige übrig.",
+   "Am Samstag hat er seine Tante angerufen. Sie haben zwanzig Minuten über nichts gesprochen. Dann hat er das Foto erwähnt.",
+   "Es war lange still.",
+   "«Also hat er es wirklich geschickt», hat die Tante gesagt.",
+   "«Wer?»",
+   "«Jemand, auf den deine Mutter dreißig Jahre gewartet hat. Komm am Sonntag. So etwas erzählt man nicht am Telefon.»",
+   "Markus hat aufgelegt und ist am Fenster stehen geblieben. Draußen hat es angefangen zu regnen."
+  ]
+ },
+ {
+  "id": "de-8",
+  "lang": "de",
+  "level": "A2",
+  "step": 2,
+  "minutes": 3,
+  "title": "Nachtschicht",
+  "titleRu": "Ночная смена",
+  "paragraphs": [
+   "Ein Krankenhaus ist nachts nicht still. Es gibt viele kleine Geräusche: ein Wagen auf dem Flur, eine Klingel, ein Husten hinter einer Tür.",
+   "Julia arbeitet seit vier Jahren nachts. Sie sagt, der Körper gewöhnt sich daran, aber der Kopf nicht. Um drei Uhr wird die Zeit lang, und jeder Gedanke wird größer.",
+   "Heute Nacht kann ein alter Mann in Zimmer sieben nicht schlafen. Er hat schon dreimal um Wasser gebeten, aber Julia weiß, dass er kein Wasser will.",
+   "Sie setzt sich fünf Minuten an sein Bett, obwohl sie noch zwei Zimmer kontrollieren muss.",
+   "«Meine Frau war auch Krankenschwester», sagt er. «Sie hat immer gesagt: Nachts haben die Menschen mehr Angst.»",
+   "«Sie hatte recht», antwortet Julia.",
+   "Dann sagen beide nichts mehr. Draußen wird der Himmel langsam heller.",
+   "Als sie geht, ist der Mann eingeschlafen.",
+   "Morgens im Bus merkt Julia, dass sie fast nichts von dieser Nacht weiß. Nur diese fünf Minuten."
+  ]
+ },
+ {
+  "id": "de-9",
+  "lang": "de",
+  "level": "A2",
+  "step": 2,
+  "minutes": 3,
+  "title": "Die rote Tasche · Teil 3",
+  "titleRu": "Красная сумка. Часть 3",
+  "paragraphs": [
+   "Die Frau am Tisch hieß Renate. Sie hat Tee eingeschenkt, als ob Herr Weber jeden Sonntag käme.",
+   "Der Brief war kurz. Seine Mutter hat 1998 geschrieben, dass sie mit siebzehn ein Kind bekommen hat und es weggeben musste. Ihre Eltern haben das so entschieden.",
+   "«Das Kind war ich», hat Renate gesagt.",
+   "Herr Weber hat den Brief zweimal gelesen. Er hat nicht gewusst, was er sagen soll.",
+   "«Warum jetzt?» hat er gefragt. «Warum eine Tasche im Bus?»",
+   "«Weil du meine Briefe nie beantwortet hast.»",
+   "«Ich habe nie Briefe bekommen.»",
+   "Renate ist aufgestanden und hat eine Schachtel geholt. Darin lagen elf Umschläge, alle geöffnet, alle mit seiner Adresse.",
+   "«Sie kamen zurück», hat sie gesagt. «Jemand hat sie zurückgeschickt.»",
+   "Auf einem Umschlag stand ein Wort in einer Handschrift, die Herr Weber sofort erkannt hat. Es war nicht die Schrift seiner Mutter. Es war die Schrift seines Bruders."
+  ]
+ },
+ {
+  "id": "de-10",
+  "lang": "de",
+  "level": "A2",
+  "step": 2,
+  "minutes": 3,
+  "title": "Die rote Tasche · Teil 4",
+  "titleRu": "Красная сумка. Часть 4",
+  "paragraphs": [
+   "Sein Bruder Klaus wohnt seit zwanzig Jahren in derselben Wohnung über der Apotheke. Er hat geöffnet, als hätte er gewartet.",
+   "«Du warst am See», hat er gesagt. Es war keine Frage.",
+   "Sie haben in der Küche gesessen. Klaus hat erzählt, dass er die Briefe gefunden hat, als ihre Mutter krank war. Er hat sie gelesen und zurückgeschickt, weil er Angst hatte.",
+   "«Angst wovor?»",
+   "«Dass sie das Haus bekommt. Dass alles anders wird.»",
+   "«Das Haus ist seit zwanzig Jahren verkauft», hat Herr Weber gesagt.",
+   "Klaus hat lange auf den Tisch geschaut. Dann hat er gesagt, dass er das Geld in die Tasche gelegt hat. Dreitausend Euro, alles, was er hatte. Er hat die Tasche in den Bus gestellt, weil er sich nicht getraut hat, sie zu bringen.",
+   "«Und wenn ich sie nicht gefunden hätte?»",
+   "«Dann hätte jemand anders Glück gehabt.»",
+   "Herr Weber ist gegangen, ohne zu antworten. Am Sonntag ist er wieder zum See gefahren. Diesmal hat er Kuchen mitgebracht, für drei Personen."
   ]
  }
 ]

@@ -22,20 +22,30 @@ def read_gloss(path):
     return g
 
 G = {}
-for name in ('gloss-it.txt', 'gloss-de.txt'):
-    G.update(read_gloss(base + '/stories/' + name))
+for name in ('gloss-it.txt', 'gloss-de.txt', 'common-it.txt', 'common-de.txt'):
+    for section, entries in read_gloss(base + '/stories/' + name).items():
+        G.setdefault(section, {}).update(entries)
+
+# Общий словарь языка: сначала то, что записано в common-<язык>,
+# затем всё, что уже переведено в других рассказах этого языка.
+common = {'it': {}, 'de': {}}
+for lang in common:
+    common[lang].update(G.get('common-' + lang, {}))
+    for section, entries in G.items():
+        if not section.startswith(lang + '-'):
+            continue
+        for form, entry in entries.items():
+            common[lang].setdefault(form, entry)
 
 bad = 0
 for s in stories:
     forms = sorted(set(w.lower() for w in re.findall(r'[^\W\d_]+', ' '.join(s['paragraphs']), re.UNICODE)))
-    gl = G.get(s['id'], {})
-    missing = [f for f in forms if f not in gl]
-    extra = [f for f in gl if f not in forms]
+    own = G.get(s['id'], {})
+    pool = common[s['lang']]
+    missing = [f for f in forms if f not in own and f not in pool]
     if missing:
         print(s['id'], 'нет перевода:', ', '.join(missing)); bad = 1
-    if extra:
-        print(s['id'], 'лишние слова в словаре:', ', '.join(extra)); bad = 1
-    s['glossary'] = {f: gl[f] for f in forms}
+    s['glossary'] = {f: (own[f] if f in own else pool[f]) for f in forms if f in own or f in pool}
 
 if bad:
     sys.exit('Сборка остановлена.')

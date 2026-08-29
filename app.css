@@ -84,7 +84,8 @@ button{font:inherit;color:inherit;background:none;border:0;padding:0;cursor:poin
 .linkbtn{font-size:14px;color:var(--blu);font-weight:500;white-space:nowrap;padding:8px 0;flex:none}
 
 /* ---------- переключатель языка ---------- */
-.langs{display:flex;gap:8px;padding-bottom:26px}
+.langs{display:flex;gap:8px;padding-bottom:10px}
+.langs.steps{padding-bottom:26px}
 .lang{
   flex:1;padding:11px 12px;border:1px solid var(--rule);border-radius:12px;
   background:var(--card);font-size:14px;font-weight:500;color:var(--fog);

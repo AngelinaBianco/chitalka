@@ -1,0 +1,321 @@
+#common-it
+abitua|привыкает (si abitua)|abituarsi — привыкать
+accorge|замечает (si accorge)|accorgersi — замечать
+acqua|вода|l’acqua
+addormentato|заснул|addormentarsi — засыпать
+affatto|совсем (non … affatto — совсем не)|наречие
+aggiunse|добавил|aggiungere — добавлять
+ai|к (a + i)|a + i
+alba|рассвет|l’alba
+albicocche|абрикосы|l’albicocca — абрикос
+alcuni|некоторые|alcuno
+allora|значит, тогда|наречие
+allunga|растягивается (si allunga)|allungarsi
+alta|высокое|alto — высокий
+altre|другие|altro — другой
+ammettere|признавать|глагол
+andare|идти, пойти|глагол
+andata|ушла|andare — идти
+appaiono|появляются|apparire — появляться
+apparteneva|принадлежали|appartenere — принадлежать
+appena|едва, только-только|наречие
+aprì|открыл|aprire — открывать
+aria|вид (con l’aria di — с видом)|l’aria
+arrivata|пришла|arrivare — приходить
+arrivato|пришёл|arrivare — приходить
+arrivò|пришло|arrivare — приходить
+aspettato|ждал|aspettare — ждать
+aspettava|ждала|aspettare — ждать
+attraversa|переходит|attraversare — переходить
+autobus|автобус|l’autobus
+aver|(aver toccato — что задел)|avere — иметь
+avesse|(chi gliel’avesse mandata — кто ему это послал)|avere
+avevano|они (avevano litigato — поссорились)|avere
+avevo|у меня было|avere
+avrebbe|(avrebbe dovuto — должна была бы)|avere
+banchi|прилавки|il banco — прилавок
+bicchiere|стакан|il bicchiere
+bolletta|счёт за квартиру|la bolletta
+buste|конверты|la busta — конверт
+cadesse|упала бы|cadere — падать
+campanello|звонок|il campanello
+capito|поняла|capire — понимать
+capiva|понимал|capire — понимать
+capì|понял|capire — понимать
+carrelli|тележки|il carrello — тележка
+ce|туда (ce la spingesse)|ci
+certe|некоторые|certo
+chiara|Кьяра|имя
+chiese|спросил|chiedere — спрашивать
+chiuso|закрылся|chiudere — закрывать
+cielo|небо|il cielo
+cifre|суммы, цифры|la cifra
+cinema|кинотеатр|il cinema
+cinque|пять|числительное
+come|как|наречие
+cominciava|начинало|cominciare — начинать
+compra|покупает|comprare — покупать
+comprava|покупала|comprare — покупать
+conosceva|знала|conoscere — быть знакомым
+conti|счета|il conto — счёт
+continuava|продолжал|continuare — продолжать
+controllare|проверить|глагол
+cose|вещи|la cosa — вещь
+costoso|дорогой|прилагательное
+credo|верю (le credo — верю ей)|credere — верить
+credono|думают, считают|credere — думать
+d|(d’acqua — воды)|di
+dato|дал|dare — давать
+davanti|перед, напротив|наречие
+davvero|правда, действительно|наречие
+dei|(dei fiori — цветочный, di + i)|di + i
+denaro|деньги|il denaro
+denunciare|заявить, разоблачить|глагол
+diceva|говорила|dire — говорить
+discute|спорит|discutere — спорить
+dito|палец|il dito
+diventa|становится|diventare — становиться
+dorme|спит|dormire — спать
+dormire|спать|глагол
+dormito|спала|dormire — спать
+dovuto|должна была|dovere — быть должным
+dura|стоит, держится|durare — длиться
+elenco|список|l’elenco
+erano|были|essere — быть
+esiste|существует|esistere — существовать
+fabbri|Фаббри|фамилия
+faccia|лицо|la faccia
+far|(far passare — пропускать)|fare — делать
+fatica|усилие (senza fatica — без труда)|la fatica
+fece|составил|fare — делать
+ferma|останавливается (si ferma)|fermarsi — останавливаться
+fermarsi|остаться, задержаться|глагол
+fidava|доверяла (si fidava)|fidarsi — доверять
+fine|конец (alla fine — в конце концов)|la fine
+fiori|цветы|il fiore — цветок
+firme|подписи|la firma — подпись
+folla|толпа|la folla
+forse|может быть|наречие
+fosse|была бы (come se fosse)|essere — быть
+fotografia|фотография|la fotografia
+fretta|спешка (aver fretta — торопиться)|la fretta
+fronte|лоб|la fronte
+fruttivendolo|продавец фруктов|il fruttivendolo
+fu|наступило (ci fu)|essere — быть
+gente|люди|la gente
+giorni|дня|il giorno — день
+giovane|молодая (da giovane — в молодости)|прилагательное
+giulia|Джулия|имя
+giusto|верный (il punto giusto — в точку)|прилагательное
+già|уже|наречие
+gliel|(gliel’avesse — ему это)|glielo
+grigia|серый|grigio — серый
+guai|неприятности|il guaio — беда
+guardandoti|глядя тебе|guardare — смотреть
+guardare|смотреть|глагол
+guardò|посмотрел|guardare — смотреть
+indicando|показывая|indicare — показывать
+infermiera|медсестра|l’infermiera
+intenzione|намерение|l’intenzione
+lasciare|оставить|глагол
+lasciò|оставил|lasciare — оставлять
+lavorano|работают|lavorare — работать
+lettera|письмо|la lettera
+litigato|поссорились|litigare — ссориться
+madre|мать|la madre
+malati|больные|il malato — больной
+mandata|послал|mandare — посылать
+mano|рука (su una mano — по пальцам)|la mano
+marco|Марко|имя
+martedì|вторник|il martedì
+matita|карандаш|la matita
+mattino|утро|il mattino
+maturo|спелый|прилагательное
+mazzo|букет|il mazzo
+meglio|лучше (è meglio che — лучше, чтобы)|наречие
+melone|дыня|il melone
+memoria|память|la memoria
+mentre|пока, в то время как|союз
+mercato|рынок|il mercato
+mezzo|середина (in mezzo a — посреди)|il mezzo
+mia|моя|притяжательное
+migliore|лучше|прилагательное
+migliori|лучшие|migliore — лучший
+minuti|минут|il minuto — минута
+mise|положил|mettere — класть
+mittente|отправитель|il mittente
+modo|манера, способ|il modo
+moglie|жена|la moglie
+morta|умерла|morire — умирать
+n|(se n’era andata — ушла)|ne
+nelle|в (in + le)|in + le
+nessuna|никакого|nessuno
+nome|имя|il nome
+nominò|упомянул|nominare — называть
+notte|ночь|la notte
+ormai|уже, к этому времени|наречие
+ospedale|больница|l’ospedale
+ottant|восемьдесят (ottant’anni)|ottanta
+otto|восемь|числительное
+parecchio|порядочно (da parecchio — давно)|наречие
+parenti|родственники|il parente — родственник
+parlarono|поговорили|parlare — говорить
+parole|слова|la parola — слово
+passare|пропускать, проводить|глагол
+passò|провёл|passare — проходить
+paura|страх|la paura
+pensare|думать|глагол
+pensiero|мысль|il pensiero
+pensò|подумал|pensare — думать
+pericoloso|опасно|прилагательное
+persona|человек|la persona
+piaceva|нравилась|piacere — нравиться
+piazza|площадь|la piazza
+piccoli|маленькие|piccolo — маленький
+pieno|полный|прилагательное
+piovere|идти (о дожде)|глагол
+pomodori|помидоры|il pomodoro — помидор
+portano|приносят|portare — нести
+portiere|портье|il portiere
+possibilità|возможность|la possibilità
+poteva|мог|potere — мочь
+prenotato|забронирован|prenotare — бронировать
+preparare|готовить|глагол
+prezzo|цена|il prezzo
+pronunciato|произнёс|pronunciare — произносить
+punto|точка, место|il punto
+quando|когда|союз
+quanto|чем (di quanto — чем)|наречие
+quattro|четыре|числительное
+quei|те|quello — тот
+quel|тот|quello — тот
+quella|та|quello — тот
+quelli|те, кто|quello — тот
+quello|то|местоимение
+qui|здесь|наречие
+raccolto|собрала|raccogliere — собирать
+racconti|расскажу (che te le racconti)|raccontare — рассказывать
+raccontò|рассказала|raccontare — рассказывать
+ragione|правота (aveva ragione — была права)|la ragione
+ramo|ветка|il ramo
+restano|остаются|restare — оставаться
+restava|оставалась|restare — оставаться
+retro|оборот (sul retro — на обороте)|il retro
+riattaccò|положил трубку|riattaccare
+riconoscere|узнавать|глагол
+ricordare|помнить|глагол
+riempie|наполняет|riempire — наполнять
+riesce|получается (non riesce a — не может)|riuscire — удаваться
+righe|строки|la riga — строка
+rimase|остался|rimanere — оставаться
+rimasta|оставшаяся|rimanere — оставаться
+rimasti|оставшиеся|rimanere — оставаться
+ringrazia|благодарит|ringraziare — благодарить
+ripeteva|повторял|ripetere — повторять
+rumori|звуки, шумы|il rumore — шум
+ruote|колёса|la ruota — колесо
+sacchetto|пакет|il sacchetto
+salita|поднялась|salire — подниматься
+sapere|знать|глагол
+saperlo|знать это|sapere — знать
+sapeva|знал|sapere — знать
+sapevo|я знала|sapere — знать
+sappia|умеешь (basta che tu sappia)|sapere — знать
+sarebbe|(sarebbe venuto — придёт)|essere — быть
+sbaglio|ошибка (per sbaglio — случайно)|lo sbaglio
+sbattendo|хлопнув|sbattere — хлопать
+scegliere|выбрать|глагол
+scendeva|спускался|scendere — спускаться
+schiarirsi|светлеть|глагол
+sciocchezze|пустяки|la sciocchezza
+sconosciuti|незнакомцы|lo sconosciuto — незнакомец
+scoperto|обнаружила|scoprire — обнаруживать
+scritte|написаны|scrivere — писать
+scrive|пишет|scrivere — писать
+se|если|союз
+segno|след|il segno
+servivano|использовались (servivano a)|servire — служить
+settimana|неделя|la settimana
+settimane|недели|la settimana
+siede|садится (si siede)|sedersi — садиться
+significa|значит|significare — значить
+silenzio|тишина, молчание|il silenzio
+silenzioso|тихий|прилагательное
+sofia|София|имя
+sole|солнце|il sole
+somiglia|похож (ti somiglia — похож на тебя)|somigliare
+sorella|сестра|la sorella
+spedita|отправил|spedire — отправлять
+spingesse|столкнул бы|spingere — толкать
+stanotte|сегодня ночью|наречие
+stanze|палаты, комнаты|la stanza — комната
+stesso|тот же|прилагательное
+storia|история|la storia
+stretta|узкое|stretto — узкий
+stringere|щурить (stringere gli occhi)|глагол
+su|на|предлог
+successive|следующие|successivo — следующий
+tardi|поздно|наречие
+tavola|стол|la tavola
+tavolo|стол|il tavolo
+te|тебе|местоимение
+telefonò|позвонил|telefonare — звонить
+tempo|время|il tempo
+terza|третья|terzo — третий
+testa|голова|la testa
+titolari|владельцы счетов|il titolare
+toccato|задел|toccare — трогать
+tornare|возвращаться|глагол
+tornava|сходилось (non tornava)|tornare — возвращаться
+tosse|кашель|la tosse
+trasferita|переехала|trasferirsi — переезжать
+trasforma|преображается (si trasforma)|trasformarsi
+trent|тридцать (trent’anni)|trenta
+troppo|слишком|наречие
+tu|ты|местоимение
+tua|твой|притяжательное
+turno|смена|il turno
+tutto|всё|местоимение
+unica|единственная|unico — единственный
+unico|единственный|прилагательное
+uomo|мужчина|l’uomo
+vecchia|старая|vecchio — старый
+vedeva|видел|vedere — видеть
+venne|вышла наружу (venne fuori — выяснилось)|venire — приходить
+venti|двадцать|числительное
+venuto|придёт (sarebbe venuto)|venire — приходить
+vero|правда|прилагательное
+verso|около (verso le dieci)|предлог
+vestaglia|халат|la vestaglia
+viaggio|поездка|il viaggio
+viene|приходит|venire — приходить
+vieni|приходи|venire — приходить
+viva|жива|vivo — живой
+viveva|жила|vivere — жить
+volesse|хотел бы|volere — хотеть
+voleva|хотела|volere — хотеть
+volta|раз|la volta
+volte|раз (a volte — иногда)|la volta
+vuole|хочет|volere — хотеть
+zia|тётя|la zia
+zitti|молча (restano zitti — молчат)|zitto — молчаливый
+
+contavano|считались (si contavano — можно было пересчитать)|contarsi
+convincere|уговорить|глагол
+corpo|тело|il corpo
+corridoio|коридор|il corridoio
+disse|сказал|dire — говорить
+regala|дарит|regalare — дарить
+registro|журнал (записей)|il registro
+renzo|Ренцо|имя
+
+#it-6
+sei|ты (Sei arrivata — ты пришла)|essere — быть
+parte|сторона (mettere da parte — откладывать)|la parte
+
+#it-9
+quarto|четвёртый|числительное
+
+#it-10
+quarto|четвёртый|числительное
+parte|часть (in parte — отчасти)|la parte
